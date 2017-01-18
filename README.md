@@ -24,8 +24,8 @@ Our first and finest weapon against incomprehensible masses of data is also the 
 
 Websites, under the hood, are surprisingly simple.  They are made of only two things.
 
-1. A simple text document,  that's kind of like a clunky MS Word document.  
-2. Some programming on top to make it dynamic.  
+1. A simple text document,  that's kind of like a clunky MS Word document.
+2. Some programming on top to make it dynamic.
 
 The rest is done by the web browser which makes out of these ingredients the web pages we all know and love.
 
