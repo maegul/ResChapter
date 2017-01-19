@@ -21,8 +21,6 @@ The clunky file is straight forward to make.  Kind of like `<title> I think this
 
 In short, if you've programmed anything before, you already know everything you need to know.  What you do need are some new tools, some new concepts, and this chapter to get you started.
 
-
-
 ## How much power then?
 
 **... a lot actually.**
@@ -43,9 +41,9 @@ This is the easy stuff.  It's not real programming.  With this you set up your t
 
 ### Javascript
 
-This is the magic.  Javascript is the programming language for websites.  It is much like python/Matlab/R.  But, it is built to create the interactivity we want from a webpage.  If you've programmed before, there's nothing new to learn here \(apart from some minor differences between javascript and the other languages\).
+This is the magic.  Javascript is the programming language for websites.  It is much like python/Matlab/R.  But, it is built to create the interactivity we want from a webpage.  If you've programmed before, there's nothing really new to learn here \(apart from some minor differences between javascript and the other languages\).
 
 ### Github Pages
 
-Github is something used for a number of things.  For us, they provide a very straightforward way to put our website online without us having to worry for a second about servers or anything like that.
+Github is something you've probably heard of before.  It is used for a number of things.  For us, they provide a very straightforward way to put our website online without us having to worry for a second about servers or anything like that.
 
