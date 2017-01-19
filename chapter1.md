@@ -44,17 +44,15 @@ All of the stuff between the arrows or greater/less than symbols \(eg, `<h1>`\) 
 
 To be clear, **the HTML above is a webpage**.  It's not a terribly interesting one, but it does illustrate the straightforwardness of HTML.  All it needs is somewhere to live, which is step three below.
 
-
-
 ## 2. "The Magic" --- Javascript makes HTML dance and play
 
 Javascript is a programming language that looks much like Python, R or Matlab.
 
 ```js
-var	my_data = [1, 2, 3, 5, 7, 11, 13, 17];
+var my_data = [1, 2, 3, 5, 7, 11, 13, 17];
 
 for (i in data) {
-	console.log(my_data[i])
+    console.log(my_data[i])
 }
 ```
 
