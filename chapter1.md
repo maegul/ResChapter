@@ -21,20 +21,21 @@ A web page is just a document, like an MS Word document.  The web browser makes 
 So typically, HTML, ie, a web page before the browser makes it look nice, looks like this:
 
 ```HTML
+
 <body>
 
-    <h1>This is an HTML Demo</h1>
+    <h1>This is the Heading of an HTML Demo</h1>
 
     <div>This will be a paragraph of text ... blah blah blah</div>
     <div>And more text ... so boring</div>
 
+    <!-- below is a picture -->
     <img src="my_cat_picture.jpg">
 
     <button type="button">I'm a Button!!</button>
 
-    <!--  And this is a slider-->
+    <!--  And below is a slider-->
     <input type="range" min="2002" max="2016" step="1" > 
-
 
 
 </body>
