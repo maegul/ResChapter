@@ -2,9 +2,15 @@
 
 ## Why?
 
-Sooo ... why would you make things hard for yourself?  When you can python away or hack away in Matlab or RStudio, why would we turn our data visualisation problem into a "learning to make a web page" problem?  Geek masochism?  Perhaps.  The real answer though is far more impressive ... power!  Like ... force lightening power.
+### Power!
+
+Sooo ... why would you make things hard for yourself?  When you can python away or hack in Matlab or RStudio, why would we turn our data visualisation problem into a "learning to make a web page" problem?  Geek masochism?  Perhaps.  The real answer though is far more impressive.  Power!  Like ... magical force lightening power.
 
 ![](/images/darth_squirrel.jpg)
+
+### There is a disturbance ...
+
+An important reason for adding this power to your toolset, though, is that two forces that are acting on and transforming research demand it.  First is data.  Big data.
 
 ## Power ... at what cost?
 
@@ -19,7 +25,7 @@ The rest is done by the web browser which makes out of these ingredients the web
 
 The clunky file is straight forward to make.  Kind of like `<title> I think this is a title <end title>`.  And the programming?  It is just like anything you would do in Python, R or Matlab.  In fact, the programming involved is often relatively straight forward compared to the sorts of things you would need to do with Python etc.
 
-In short, if you've programmed anything before, you already know everything you need to know.  What you do need are some new tools, some new concepts, and this chapter to get you started.
+_In short, if you've programmed anything before, you already know everything you need to know.  What you do need are some new tools, some new concepts, and this chapter to get you started._
 
 ## How much power then?
 
@@ -29,7 +35,5 @@ You can make dynamic, animated and interactive visualisations of what ever you c
 
 For example ...  Viewers of your page can use buttons, menus or sliders to explore and delve deeper into your data.  Exploring on their own, they can understand it the way they need to.  They can ask their own questions of it, and, if you've allowed them to look at your data in the appropriate way, answer it for themselves.  They can also animate it and see how it evolves.  This frees you from the two dimensional constraint of paper \(or screen\) if your data has multiple dimensions or aspects to it.  With sliders you can move through a three dimensional data set and allow a two dimensional visualisation to animate with the user's positioning.  Or multiple two dimensional visualisations can be linked together, where the viewer can highlight certain portions of the data and see their representation in the various plots and across various dimensions.  Or, if you want to, you can go full 3D and make interactive 3D visualisations.
 
-In short, with universality and ubiquity, you can tell your story, of your research or otherwise, in a vivid and animated way that invites the viewer to explore your story so that they can understand it for themselves and therefore remember and appreciate it.
-
-
+_In short, with universality and ubiquity, you can tell your story, of your research or otherwise, in a vivid and animated way that invites the viewer to explore your story so that they can understand it for themselves and thereby truly understand and appreciate it._
 

@@ -14,13 +14,11 @@ Github is something you've probably heard of before.  It is used for a number of
 
 # What the process looks like --- The three steps to getting online
 
-
-
 ## 1. "The Document" --- A web page is just an HTML document
 
-A web page is just a document, like an MS Word document.  The web browser makes the document look nice for us \(and also allows us to program the document, which comes next\).  The browser "speaks" HTML.  This means that the formatting of the document — ie, making text bold or italic, or inserting a picture or a table –is done using **tags** rather than clicking buttons.
+A web page is just a document, like an MS Word document.  The web browser makes the document look nice for us \(and also allows us to program the document, which comes next\).  The browser "speaks" HTML, which stands for _HyperText Markup Language,_ a nearly meaningless acronym that you can safely never use again ... saying 'HTML' is fine..  This means that the formatting of the document — ie, making text bold or italic, or inserting a picture or a table –is done using bits and pieces of descriptive text, called **tags,** rather than clicking buttons.
 
-So typically, HTML, ie, a web page before the browser makes it look nice, looks like this:
+So typically, HTML, that is, a web page before the browser makes it look nice, will be done as is below.  This is a page with a heading, some paragraphs, a picture 
 
 ```HTML
 <body>
@@ -45,8 +43,6 @@ So typically, HTML, ie, a web page before the browser makes it look nice, looks 
 All of the stuff between the arrows or greater/less than symbols \(eg, `<h1>`\) are called **tags**.  Each tag is like a piece of lego.  They tell the browser how to format the document.  They tell the browser what colour and shape each "lego piece" is going to be.
 
 To be clear, **the HTML above is a webpage**.  It's not a terribly interesting one, but it does illustrate the straightforwardness of HTML.  All it needs is somewhere to live, which is step three below.
-
-
 
 ## 2. "The Magic" --- Javascript makes HTML dance and play
 
