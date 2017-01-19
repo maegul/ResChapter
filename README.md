@@ -21,25 +21,31 @@ The clunky file is straight forward to make.  Kind of like `<title> I think this
 
 In short, if you've programmed anything before, you already know everything you need to know.  What you do need are some new tools, some new concepts, and this chapter to get you started.
 
+
+
 ## How much power then?
 
 **... a lot actually.**
 
-You can make dynamic, animated and interactive visualisations of what ever you can draw.  You can make data exploration apps.  That vividly tell the story of your research.  That anyone can use so long as they have a web browser \(which is basically everyone\).  And that are shareable merely through a URL, link or tweet.
+You can make dynamic, animated and interactive visualisations of what ever you can draw.  You can make data exploration apps.  That vividly tell the story of your research.  That anyone in world can use so long as they have a web browser \(which is basically everyone\), without having to install or update anything.  And that are shareable merely through a URL, link or tweet.
 
-For example ...  Viewers of your page can use buttons, menus or sliders to explore and delve deeper into your data.  Exploring on their own, they can understand it the way they need to.  They can ask their own questions of it, and, if you've allowed them to look at your data in the appropriate way, answer it for themselves.  They can also animate it and see how it evolves.  This frees you from the two dimensional constraint of paper \(or screen\) if your data has multiple dimensions or aspects to it.  With sliders you can move through a three dimensional data set and allow a two dimensional visualisation to animate with the user's position of the slider.  Or multiple two dimensional visualisations can be linked together, where the viewer can highlight certain portions of the data and see their representation in the various plots.
+For example ...  Viewers of your page can use buttons, menus or sliders to explore and delve deeper into your data.  Exploring on their own, they can understand it the way they need to.  They can ask their own questions of it, and, if you've allowed them to look at your data in the appropriate way, answer it for themselves.  They can also animate it and see how it evolves.  This frees you from the two dimensional constraint of paper \(or screen\) if your data has multiple dimensions or aspects to it.  With sliders you can move through a three dimensional data set and allow a two dimensional visualisation to animate with the user's positioning.  Or multiple two dimensional visualisations can be linked together, where the viewer can highlight certain portions of the data and see their representation in the various plots and across various dimensions.  Or, if you want to, you can go full 3D and make interactive 3D visualisations.
+
+In short, with universality and ubiquity, you can tell your story, of your research or otherwise, in a vivid and animated way that invites the viewer to explore your story so that they can understand it for themselves and therefore remember and appreciate it.
+
+
 
 ## What's involved
 
 ### HTML
 
-This is the easy stuff.  It's not real programming.  With this you set up your text and pictures and titles and fonts and colours.  I like to think of it as lego.
+This is the easy stuff.  It's not real programming.  With this you set up your text and pictures and titles and fonts and colours.  I like to think of it as lego.  You have different blocks of different shapes and colours, and you simply pile them up on top of each other as you see fit.
 
 ### Javascript
 
-This is the magic.  Javascript is the programming language for websites.  It is much like python/Matlab/R.  But, it is built to create the interactivity we want from a webpage.
+This is the magic.  Javascript is the programming language for websites.  It is much like python/Matlab/R.  But, it is built to create the interactivity we want from a webpage.  If you've programmed before, there's nothing new to learn here \(apart from some minor differences between javascript and the other languages\).
 
 ### Github Pages
 
-Github is used for a number of things.  For us, they provide a very straightforward way to put our website online without us having to worry for a second about servers or anything like that.
+Github is something used for a number of things.  For us, they provide a very straightforward way to put our website online without us having to worry for a second about servers or anything like that.
 
