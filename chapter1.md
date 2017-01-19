@@ -52,7 +52,8 @@ Javascript is a programming language that looks much like Python, R or Matlab.
 var my_data = [1, 2, 3, 5, 7, 11, 13, 17];
 
 for (i in data) {
-    console.log(my_data[i])
+    console.log(my_data[i]
+
 }
 ```
 
