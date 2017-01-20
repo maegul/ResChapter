@@ -16,9 +16,11 @@ Github is something you've probably heard of before.  It is used for a number of
 
 ## 1. "The Document" --- A web page is just an HTML document
 
-A web page is just a document, like an MS Word document.  The web browser makes the document look nice for us \(and also allows us to program the document, which comes next\).  The browser "speaks" HTML, which stands for _HyperText Markup Language,_ a nearly meaningless acronym that you can safely never use again ... saying 'HTML' is fine..  This means that the formatting of the document — ie, making text bold or italic, or inserting a picture or a table –is done using bits and pieces of descriptive text, called **tags,** rather than clicking buttons.
+A web page is just a document, like an MS Word document.  The web browser makes the document look nice for us \(and also allows us to program the document, which comes next\).  The browser "speaks" HTML, which stands for _HyperText Markup Language,_ a nearly meaningless acronym that you can safely never use again ... saying 'HTML' is fine.  
 
-So typically, HTML, that is, a web page before the browser makes it look nice, will be done as is below.  This is a page with a heading, some paragraphs, a picture 
+This means that the formatting of the document — ie, making text bold or italic, or inserting a picture or a table –is done using bits and pieces of descriptive text, called **tags,** rather than clicking buttons.
+
+So typically, HTML, that is, a web page before the browser makes it look nice, will be done as is below.  This is a page with a heading, some paragraphs, a picture, a button and a slider.
 
 ```HTML
 <body>
@@ -40,7 +42,7 @@ So typically, HTML, that is, a web page before the browser makes it look nice, w
 </body>
 ```
 
-All of the stuff between the arrows or greater/less than symbols \(eg, `<h1>`\) are called **tags**.  Each tag is like a piece of lego.  They tell the browser how to format the document.  They tell the browser what colour and shape each "lego piece" is going to be.
+The arrows or greater/less than symbols \(ie `<, >` \) and the text between  \(eg, the 'h1' in`<h1>`\) are called **tags**.  Each tag is like a piece of lego.  They tell the browser how to format the document.  They tell the browser what colour and shape each "lego piece" is going to be.
 
 To be clear, **the HTML above is a webpage**.  It's not a terribly interesting one, but it does illustrate the straightforwardness of HTML.  All it needs is somewhere to live, which is step three below.
 
@@ -49,12 +51,22 @@ To be clear, **the HTML above is a webpage**.  It's not a terribly interesting o
 Javascript is a programming language that looks much like Python, R or Matlab.
 
 ```js
+// A tiny little data set
 my_data = [1, 2, 3, 5, 7, 11, 13, 17];
 
+// Looping three each number in the data set
 for (i in data) {
     console.log(my_data[i]);   // console.log() is the print for javascript
 }
 ```
+
+
+
+
+
+
+
+
 
 
 
