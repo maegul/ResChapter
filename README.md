@@ -10,7 +10,9 @@ Sooo ... why would you make things hard for yourself?  When you can python away 
 
 ### There is a disturbance ...
 
-An important reason for adding this power to your toolset, though, is that two forces that are acting on and transforming research demand it.  First is data.  Big data.
+An important reason for adding these skills to your toolset, though, is that two forces are acting on and transforming research.  And taming them demainds a power like this. 
+
+The first force is data.  Big data.
 
 ## Power ... at what cost?
 
