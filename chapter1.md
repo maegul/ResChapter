@@ -42,7 +42,7 @@ So typically, HTML, that is, a web page before the browser makes it look nice, w
 </body>
 ```
 
-The arrows or greater/less than symbols \(ie `<, >` \) and the text between  \(eg, the 'h1' in`<h1>`\) are called **tags**.  Each tag is like a piece of lego.  They tell the browser how to format the document.  They tell the browser what colour and shape each "lego piece" is going to be.
+The arrows or greater/less than symbols \(ie `<, >` \) and the text between  \(eg, the 'h1' in`<h1>`\) are called **tags**.  Each tag is like a piece of lego.  The text inside them tells the browser how to format the document.  They tell the browser what colour and shape each "lego piece" is going to be.
 
 To be clear, **the HTML above is a webpage**.  It's not a terribly interesting one, but it does illustrate the straightforwardness of HTML.  All it needs is somewhere to live, which is step three below.
 
@@ -59,6 +59,12 @@ for (i in data) {
     console.log(my_data[i]);   // console.log() is the print for javascript
 }
 ```
+
+* example of manipulating the web page
+
+
+
+## 3.  "Getting Online" --- GitHub pages is our webpage home
 
 
 
