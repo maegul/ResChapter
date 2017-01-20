@@ -10,9 +10,9 @@ Sooo ... why would you make things hard for yourself?  When you can python away 
 
 ### There is a disturbance ...
 
-An important reason for adding these skills to your toolset, though, is that two forces are acting on and transforming research.  And taming them demainds a power like this. 
+An important reason for adding these skills to your toolset, though, is that two forces are acting on and transforming research.  And taming them demainds a power like this.
 
-The first force is data.  Big data.
+The first force is data.  Big data.  Whether you come from a research domain that traditionally doesn't deal with data – hello Humanities ;\) – or a hardcore data driven science, chances are that your research is dealing with more data than your immediate predecessor's work.  Even more extreme is that some of you may even be moving beyond classical hypothesis driven research into "Big Data Science" where the
 
 ## Power ... at what cost?
 
