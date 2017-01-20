@@ -1,4 +1,4 @@
-# Web Based Data Visualisation — or how you'll learn to love making websites
+# Web Based Data Visualisation — or how you'll learn to love making websites with D3 and Plotly
 
 ## Why?
 
