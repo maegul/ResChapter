@@ -1,4 +1,4 @@
-# Web Based Data Visualisation — or how you'll learn to love making websites with D3 and Plotly
+# Web Based Data Visualisation — or how you'll learn to love making websites with Plotly and D3
 
 ## Why?
 
@@ -12,11 +12,13 @@ Sooo ... why would you make things hard for yourself?  When you can python away 
 
 An important reason for adding these skills to your toolset, though, is that two forces are acting on and transforming research.  And taming them demainds a power like this.
 
-**The first force is data**.  **Big data**.  Whether you come from a research domain that does not traditionally deal with data – hello Humanities ;\) – or a hardcore data driven science, chances are that your research is dealing with more data that's more complex than your immediate predecessor did.  Even more extreme is that some of you may even be moving beyond classical hypothesis driven research into "Big Data Science", where the size and scope of the dataset means that finding patterns and correlations in it, without prior hypotheses, is its own success.  Either way, the more data you have, the greater the challenge to understand and make sense of it.
+**The first force is data**.  **Big data**.  Whether you come from a research domain that does not traditionally deal with data – hello Humanities ;\) – or a hardcore data driven science, chances are that your research is dealing with more data that's more complex than did your immediate predecessor.  Even more extreme is that some of you may even be moving beyond classical hypothesis driven research into "Big Data Science", where the size and scope of the dataset means that finding patterns and correlations in it, without prior hypotheses, is its own success.  Either way, the more data you have, the greater the challenge to understand and make sense of it.
 
 Our first and finest weapon against incomprehensible masses of data is also the oldest — visualisation.  As visual mammals we have evolved to dedicate a large part of our brain to analysing visual information.  The power of data visualisation lies in its ability to harness this.  Two dimensional line and scatter plots are science's bread and butter.  But, with bigger, better and more complex data, our visualisations must also follow suit.
 
-**The second force is the importance of having a web presence.**  Over the past decade the trend is clearly that researchers with a greater presence and exposure on the web get cited more.  Beyond this, openness in research, in the way of open access to publications and openly available data, are becoming more important
+**The second force is the importance of having a web presence.**  Over the past decade the trend is clearly that researchers with a greater presence and exposure on the web get cited more.  Beyond this, openness in research, in the way of open access to publications and researchers making their data openly available, are becoming more desirable and important.  More cynically, we can question to what degree our colleagues actually read our wonderful yet hard-wrought publications.  And we probably know the answer.  And we probably know the why, too.  The pedantry and detail of academic literature, though important and rigorous, hinders understanding and communication.  
+
+The era has already arrived in which publications now have accompanying web pages with interactive data visualisations, video abstracts and helpful summaries and data and code files for colleagues.  Taking your research beyond the pay-wall of the dense and pedantic journal system, out into the lush, wide and open web, is now the best way to communicate and share your research. 
 
 ## Power ... at what cost?
 
