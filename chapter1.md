@@ -16,7 +16,7 @@ Github is something you've probably heard of before.  It is used for a number of
 
 ## 1. "The Document" --- A web page is just an HTML document
 
-A web page is just a document, like an MS Word document.  The web browser makes the document look nice for us \(and also allows us to program the document, which comes next\).  The browser "speaks" HTML, which stands for _HyperText Markup Language,_ a nearly meaningless acronym that you can safely never use again ... saying 'HTML' is fine.  
+A web page is just a document, like an MS Word document.  The web browser makes the document look nice for us \(and also allows us to program the document, which comes next\).  The browser "speaks" HTML, which stands for _HyperText Markup Language,_ a nearly meaningless acronym that you can safely never use again ... saying 'HTML' is fine.
 
 This means that the formatting of the document — ie, making text bold or italic, or inserting a picture or a table –is done using bits and pieces of descriptive text, called **tags,** rather than clicking buttons.
 
@@ -59,14 +59,6 @@ for (i in data) {
     console.log(my_data[i]);   // console.log() is the print for javascript
 }
 ```
-
-
-
-
-
-
-
-
 
 
 
