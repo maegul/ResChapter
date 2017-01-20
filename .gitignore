@@ -2,6 +2,10 @@
 logs
 *.log
 
+# Vim swap files
+*.swp
+
+
 # Runtime data
 pids
 *.pid
