@@ -62,8 +62,6 @@ for (i in data) {
 
 * example of manipulating the web page
 
-
-
 ## 3.  "Getting Online" --- GitHub pages is our webpage home
 
 
