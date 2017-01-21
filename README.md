@@ -16,9 +16,9 @@ An important reason for adding these skills to your toolset, though, is that two
 
 Our first and finest weapon against incomprehensible masses of data is also the oldest — visualisation.  As visual mammals we have evolved to dedicate a large part of our brain to analysing visual information.  The power of data visualisation lies in its ability to harness this.  Two dimensional line and scatter plots are science's bread and butter.  But, with bigger, better and more complex data, our visualisations must also follow suit.
 
-**The second force is the importance of having a web presence.**  Over the past decade the trend is clearly that researchers with a greater presence and exposure on the web get cited more.  Beyond this, openness in research, in the way of open access to publications and researchers making their data openly available, are becoming more desirable and important.  More cynically, we can question to what degree our colleagues actually read our wonderful yet hard-wrought publications.  And we probably know the answer.  And we probably know the why, too.  The pedantry and detail of academic literature, though important and rigorous, hinders understanding and communication.  
+**The second force is the importance of having a web presence.**  Over the past decade the trend is clearly that researchers with a greater presence and exposure on the web get cited more.  Beyond this, openness in research, in the way of open access to publications and researchers making their data openly available, are becoming more desirable and important.  More cynically, we can question to what degree our colleagues actually read our wonderful yet hard-wrought publications.  And we probably know the answer.  And we probably know the why, too.  The pedantry and detail of academic literature, though important and rigorous, hinders understanding and communication.
 
-The era has already arrived in which publications now have accompanying web pages with interactive data visualisations, video abstracts and helpful summaries and data and code files for colleagues.  Taking your research beyond the pay-wall of the dense and pedantic journal system, out into the lush, wide and open web, is now the best way to communicate and share your research. 
+The era has already arrived in which publications now have accompanying web pages with interactive data visualisations, video abstracts and helpful summaries and data and code files for colleagues.  Taking your research beyond the pay-wall of the dense and pedantic journal system, out into the lush, wide and open web, is now the best way to communicate and share your research.
 
 ## Power ... at what cost?
 
@@ -44,4 +44,12 @@ You can make dynamic, animated and interactive visualisations of what ever you c
 For example ...  Viewers of your page can use buttons, menus or sliders to explore and delve deeper into your data.  Exploring on their own, they can understand it the way they need to.  They can ask their own questions of it, and, if you've allowed them to look at your data in the appropriate way, answer it for themselves.  They can also animate it and see how it evolves.  This frees you from the two dimensional constraint of paper \(or screen\) if your data has multiple dimensions or aspects to it.  With sliders you can move through a three dimensional data set and allow a two dimensional visualisation to animate with the user's positioning.  Or multiple two dimensional visualisations can be linked together, where the viewer can highlight certain portions of the data and see their representation in the various plots and across various dimensions.  Or, if you want to, you can go full 3D and make interactive 3D visualisations.
 
 _In short, with universality and ubiquity, you can tell your story, of your research or otherwise, in a vivid and animated way that invites the viewer to explore your story so that they can understand it for themselves and thereby truly understand and appreciate it._
+
+
+
+## How to use this chapter to get started
+
+
+
+
 

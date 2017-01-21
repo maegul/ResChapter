@@ -27,6 +27,8 @@ So typically, HTML, that is, a web page before the browser makes it look nice, w
 
     <h1>This is the Heading of an HTML Demo</h1>
 
+    <!-- the 'div' tag stands for division.  Often used for making paragraphs -->
+
     <div>This will be a paragraph of text ... blah blah blah</div>
     <div>And more text ... so boring</div>
 
@@ -68,7 +70,7 @@ So below we have a simple page, with a heading and a button.
 <body>
 
     <h1>This demo will be dynamic</h1>
-    
+
     <button> I Like Cats </button>
 
 </body>
@@ -88,18 +90,18 @@ You'll see all of this in action below.
 // Then, look out for whether the button is clicked
 
 d3.select('button').on('click', function(){
-    
+
     // And now, when it is clicked, we do whatever we want ...
-    
+
     // We identify & select our page itself 
     // (notice that 'body' = the main HTML tag in the HTML above)
     my_page = d3.select('body');
-    
+
     // Now we get javascript to write our own HTML
     // Here we add 
     my_page.append('div')
             .attr('src', 'my_cat_picture.jpg')
-    
+
     d3.select('body')
         .append('img')
         .attr('src', 'my_cat_picture.jpg')
