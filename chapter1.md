@@ -98,12 +98,12 @@ d3.select('button').on('click', function(){
     my_page = d3.select('body');
 
     // Now we get javascript to write our own HTML
-    
+
     // Here we add or 'append' a 'div' element for some text
     // And then we add the text
     my_page.append('div')
         .text('So ... you like cats ha!')
-    
+
     // Here we add an 'img' element, 
     // and provide the 'src' information, ie the picture file, 
     // which is of course a cat.
@@ -123,7 +123,20 @@ To recap, the following has just happened:
 
 ## 3.  "Getting Online" --- GitHub pages is our internet home
 
-The two ingredients above form a complete and dynamic web page.  Unfortunately, the only people who could view it would be the person who has a copy of the file on their computer.  To make it accessible to everyone on the internet, we need to give it a home on the internet.
+The two ingredients above form a complete and dynamic web page.  Unfortunately, the only people who could view it would be those who have a copy of the file on their computer.  To make it accessible to everyone on the internet, we need to give it a home on the internet.
 
 GitHub makes this super easy.
+
+The best way to learn it is to do it, which we'll be doing soon when we get our own web page up.  So we'll go through the details then.  Here though we'll just outline the fundamental steps:
+
+1. **Have a GitHub account. which is free.  **
+   It is mainly used for backing up and versioning files in the cloud, in conjunction with `git` , which is very useful.  But, when those files are web page files, then GitHub are more than happy to turn them into a web page for us.
+2. **Make a 'Repository'.**
+   A 'repository' is simply a bunch files that go together in a single collection and are managed by GitHub and git together.  For us, we need one repository for every web page we make, as all the files for a GitHub web page need to come from a single respository.
+3. **Tell GitHub to make a web page out of our repository.**
+   This is a matter of changing one setting for our repository.  Once done, the page will available online with a simple URL.
+
+
+
+
 
