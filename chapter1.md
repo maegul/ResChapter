@@ -44,9 +44,9 @@ So typically, HTML, that is, a web page before the browser makes it look nice, w
 </body>
 ```
 
-The arrows or greater/less than symbols \(ie `<, >` \) and the text between  \(eg, the 'h1' in`<h1>`\) are called **tags**.  Each tag is like a piece of lego.  The text inside them tells the browser how to format the document.  They tell the browser what colour and shape each "lego piece" is going to be.
+The arrows or greater/less than symbols \(ie `<, >` \) and the text between  \(eg, the 'h1' in`<h1>`\) are called **tags**.  Each tag creates an **element**, which is like a piece of lego.  The text inside the tags tells the browser what kind of element or lego block it is and how to format it.  Essentially, the tags tell the browser what colour and shape each "lego piece" is going to be.
 
-To be clear, **the HTML above is a webpage**.  It's not a terribly interesting one, but it does illustrate the straightforwardness of HTML.  All it needs is somewhere to live, which is step three below.
+To be clear, **the HTML above is a webpage**.  It's not a terribly interesting one, but it does illustrate the straightforwardness of HTML.  All it needs is somewhere to live online, which is step three below, and we could all visit and enjoy it.
 
 ## 2. "The Magic" --- Javascript makes HTML dance and play
 
@@ -87,28 +87,43 @@ You'll see all of this in action below.
 ```js
 // Select and identify the bit of the page we want to make dynamic
 
-// Then, look out for whether the button is clicked
+// Then, look out for whether the button is clicked ...
 
 d3.select('button').on('click', function(){
 
-    // And now, when it is clicked, we do whatever we want ...
+    // ... And now, when it is clicked, we do whatever we want to our page...
 
     // We identify & select our page itself 
     // (notice that 'body' = the main HTML tag in the HTML above)
     my_page = d3.select('body');
 
     // Now we get javascript to write our own HTML
-    // Here we add 
+    
+    // Here we add or 'append' a 'div' element for some text
+    // And then we add the text
     my_page.append('div')
+        .text('So ... you like cats ha!')
+    
+    // Here we add an 'img' element, 
+    // and provide the 'src' information, ie the picture file, 
+    // which is of course a cat.
+    my_page.append('img')
             .attr('src', 'my_cat_picture.jpg')
 
-    d3.select('body')
-        .append('img')
-        .attr('src', 'my_cat_picture.jpg')
+
 }
 ```
 
-## 3.  "Getting Online" --- GitHub pages is our webpage home
+To recap, the following has just happened:
 
+1. We made a simple web page with a button
+2. We made a javascript program that will kind of live inside the web page
+3. That program pays attention to whether anyone has clicked the button
+4. And if that button is clicked, the program adds some text and a picture to the web page \(ie, adds more HTML or lego blocks to the page for us\), 
 
+## 3.  "Getting Online" --- GitHub pages is our internet home
+
+The two ingredients above form a complete and dynamic web page.  Unfortunately, the only people who could view it would be the person who has a copy of the file on their computer.  To make it accessible to everyone on the internet, we need to give it a home on the internet.
+
+GitHub makes this super easy.
 
