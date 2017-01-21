@@ -60,7 +60,51 @@ for (i in data) {
 }
 ```
 
-* example of manipulating the web page
+What's special about javascript is that it is built to let you program your web page to be dynamic and interactive.
+
+So below we have a simple page, with a heading and a button.
+
+```HTML
+<body>
+
+    <h1>This demo will be dynamic</h1>
+    
+    <button> I Like Cats </button>
+
+</body>
+```
+
+And with javascript, we're going to make the button change the web page.  The key to how this works is that javascript does three main things:
+
+1. Javascript is aware of all the HTML "lego blocks" we've already written in the page and can specifically identify them.
+2. Javascript can write new HTML for us or modify any of the pre-existing HTML in the page.
+3. Javascript is aware of the user and their input.  It is paying attention to the mouse and keyboard.
+
+You'll see all of this in action below.
+
+```js
+// Select and identify the bit of the page we want to make dynamic
+
+// Then, look out for whether the button is clicked
+
+d3.select('button').on('click', function(){
+    
+    // And now, when it is clicked, we do whatever we want ...
+    
+    // We identify & select our page itself 
+    // (notice that 'body' = the main HTML tag in the HTML above)
+    my_page = d3.select('body');
+    
+    // Now we get javascript to write our own HTML
+    // Here we add 
+    my_page.append('div')
+            .attr('src', 'my_cat_picture.jpg')
+    
+    d3.select('body')
+        .append('img')
+        .attr('src', 'my_cat_picture.jpg')
+}
+```
 
 ## 3.  "Getting Online" --- GitHub pages is our webpage home
 
