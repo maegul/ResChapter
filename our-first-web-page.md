@@ -44,6 +44,10 @@ Each web page we make is best done in a separate folder.  So let's make a folder
 
 This isn't necessary right now, but if you like to set everything up before you get started, go to github.com and sign up with your email.
 
+### Internet connection
+
+You will need to be connected to the internet.  Making web pages, given that they live on the internet, tend to rely on downloading things from the internet.
+
 ---
 
 ## Our First Page ... Lego Time!
@@ -251,6 +255,8 @@ So, between the script tags, add the following:
 ```js
 console.log(data);
 ```
+
+Nothing will happen to the web page itself.  You need to open up the console of your browser.  
 
 ---
 
