@@ -145,15 +145,55 @@ Save the file.  And open it by double-clicking \(your operating system should op
 
 ---
 
-_**Down the rabbit hole ... if you want to challenge yourself**_
+_**Further down the rabbit hole ... More elements**_
 
 There are more elements than those we've dealt with so far, though to be fair, you generally don't need many more than what you know already.
 
-Nonetheless, go to `http://www.w3schools.com/tags/`  \(the first quick reference you should use for anything for making web pages\) and look through the elements there.  Try to use some of them in your page.  Some suggestions are: `<input>, <em>, <code>` and `<img>` \(which will require a picture file to work\).
+* Nonetheless, go to `http://www.w3schools.com/tags/`  \(the first quick reference you should use for anything for making web pages\) and look through the elements there.  
+* Try to use some of them in your page.  Some suggestions are: `<input>, <em>, <code>` and `<img>` \(which will require a picture file to work\).
 
 ---
 
-## 
+---
+
+_**Further down the rabbit hole ... Styling and CSS**_
+
+You may wish for the layout of your page to be nicer.  When it comes to styling a web page, this is generally the most common aspect to be worked on.  Styling is a whole little world of its own that we won't cover too much here.  
+
+But as an introduction, add the following to **the head** of your HTML file:
+
+```HTML
+<head> <!-- No need to copy the head tags if you already have them!! -->
+
+    <style>
+
+	/* This style applies to both div and h1 elements  */
+	div, h1 {  
+		/* Makes the width 50% of the screen width  */
+		width: 50%; 
+		
+		/* automatically puts equal margins on the sides so that it they are centered horizontally */
+		margin: auto; 
+		
+		/* Adds a little space on the bottom of each div or h1 element */
+		margin-bottom: 20px;
+	}
+	
+    </style>
+
+</head>
+```
+
+This is **CSS**, which stands for **C**ascading **S**tyle **S**heets** **\(the acronym, again, is fine\).  The idea \(this is the "cascading" in CSS\) is that you can style every element in your page, or all the `<div>` elements or any number of groupings, all in the same way.
+
+This style makes all the &lt;h1&gt; and &lt;div&gt; elements have a width of only 50% of the screen width.
+
+* Delete some of these settings \(eg width\) or adjust the values to see what they do.
+* Go to `http://www.w3schools.com/css/default.asp` and find some other style settings to add \(eg, font and border\). 
+
+---
+
+
 
 ## You're a Wizard Harry ... Data Viz magic time!
 
