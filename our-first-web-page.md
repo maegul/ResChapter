@@ -5,11 +5,11 @@
 
 # Our First Web Page
 
-# Objectives
+## Objectives
 
 1. Get set up with the tools we need to make a web page.
 2. Make our first HTML file.
-3. Add our first javascript data visualisation program to our web page.
+3. Add our first interactive data visualisation with javascript to our web page.
 4. Upload the files to our first internet home.
 
 ---
@@ -45,6 +45,14 @@ Each web page we make is best done in a separate folder.  So let's make a folder
 This isn't necessary right now, but if you like to set everything up before you get started, go to github.com and sign up with your email.
 
 ---
+
+## Our First Page ... Lego Time!
+
+
+
+
+
+## You're a Wizard Harry ... Data Viz time!
 
 
 
