@@ -158,7 +158,7 @@ There are more elements than those we've dealt with so far, though to be fair, y
 
 _**Further down the rabbit hole ... Styling and CSS**_
 
-You may wish for the layout of your page to be nicer.  When it comes to styling a web page, this is generally the most common aspect to be worked on.  Styling is a whole little world of its own that we won't cover too much here.  
+You may wish for the layout of your page to be nicer.  When it comes to styling a web page, this is generally the most common aspect to be worked on.  Styling is a whole little world of its own that we won't cover too much here.
 
 But as an introduction, add the following to **the head** of your HTML file:
 
@@ -167,18 +167,18 @@ But as an introduction, add the following to **the head** of your HTML file:
 
     <style>
 
-	/* This style applies to both div and h1 elements  */
-	div, h1 {  
-		/* Makes the width 50% of the screen width  */
-		width: 50%; 
-		
-		/* automatically puts equal margins on the sides so that it they are centered horizontally */
-		margin: auto; 
-		
-		/* Adds a little space on the bottom of each div or h1 element */
-		margin-bottom: 20px;
-	}
-	
+    /* This style applies to both div and h1 elements  */
+    div, h1 {  
+        /* Makes the width 50% of the screen width  */
+        width: 50%; 
+
+        /* automatically puts equal margins on the sides so that it they are centered horizontally */
+        margin: auto; 
+
+        /* Adds a little space on the bottom of each div or h1 element */
+        margin-bottom: 20px;
+    }
+
     </style>
 
 </head>
@@ -193,9 +193,11 @@ This style makes all the &lt;h1&gt; and &lt;div&gt; elements have a width of onl
 
 ---
 
-
-
 ## You're a Wizard Harry ... Data Viz magic time!
+
+Now comes the fun part.
+
+
 
 ## Find a Home
 
