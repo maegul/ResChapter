@@ -27,10 +27,10 @@ So typically, HTML, that is, a web page before the browser makes it look nice, w
 
     <h1>This is the Heading of an HTML Demo</h1>
 
-    <!-- the 'div' tag stands for division.  Often used for making paragraphs -->
+    <!-- the 'p' tag stands for paragraph.  Often used for making paragraphs! -->
 
-    <div>This will be a paragraph of text ... blah blah blah</div>
-    <div>And more text ... so boring</div>
+    <p>This will be a paragraph of text ... blah blah blah</p>
+    <p>And more text ... so boring</p>
 
     <!-- below is a picture -->
     <img src="my_cat_picture.jpg">
