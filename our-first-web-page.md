@@ -208,13 +208,13 @@ We're going to use Plotly and javascript to add an interactive data visualisatio
 First, let's get a data set.  Add the following in the `<head>` section \(but not inside of the `<style>` tags of your HTML file:
 
 ```HTML
-<script src="http://tinyurl.com/h37rggy"></script>
+<script src="http://tinyurl.com/zdcvgn6"></script>
 ```
 
 or if that fails:
 
 ```HTML
-<script src="https://raw.githubusercontent.com/maegul/ResChapter/master/page_data.js"></script>
+<script src="https://rawgit.com/maegul/ResChapter/master/page_data.js"></script>
 ```
 
 Two things are happening here.  First, we're using a new tag or element: `<script>` tags.  This is where javascript lives inside of an HTML file.  Second, this element has been given the attribute of `src='https://somewhere.on.the.internet.js'` which is the location of a javascript file on the internet.  In this file is the data that we're going to use.  The effect of importing it like this is that this data set will already be defined and given a variable name, which is `data` , in any javascript we want to write ourselves.
@@ -243,6 +243,14 @@ Without me, my web page is useless. Without my web page, I am useless.
 ---
 
 _**Further down the rabbit hole ...**_
+
+At this point, you can use one of the most used javascript functions to check whether the data import done above worked.  In programming languages like Python `print my_variable` is often used as a sanity check for whether a variable is what it should be.  We do the same thing with javascript.  We don't print though, instead we log something in the browser's console.
+
+So, between the script tags, add the following:
+
+```js
+console.log(data);
+```
 
 ---
 
