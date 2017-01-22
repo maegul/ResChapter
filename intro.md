@@ -47,5 +47,7 @@ _In short, with universality and ubiquity, you can tell your story, of your rese
 
 ## How to use this chapter to get started
 
+* Mention the details and going deeper sections
+
 
 
