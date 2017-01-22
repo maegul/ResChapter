@@ -31,7 +31,7 @@ Websites, under the hood, are surprisingly simple.  They are made of only two th
 
 The rest is done by the web browser which makes out of these ingredients the web pages we all know and love.
 
-The clunky file is straight forward to make.  Kind of like `<title> I think this is a title <end title>`.  And the programming?  It is just like anything you would do in Python, R or Matlab.  In fact, the programming involved is often relatively straight forward compared to the sorts of things you would need to do with Python etc, in part because there are powerful libraries that do a lot of the heavy lifting for you.
+The clunky file is straight forward to make.  Kind of like `<title> I think this is a title <end title>`.  And the programming?  It is just like anything you would do in Python, R or Matlab.  In fact, the programming involved is often relatively straight forward compared to the sorts of things you would need to do with Python etc, in part because there are powerful libraries \(ie Plotly and D3\) that do a lot of the heavy lifting for you.
 
 _In short, if you've programmed anything before, you already know everything you need to know.  What you do need are some new tools, some new concepts, and this chapter to get you started._
 
