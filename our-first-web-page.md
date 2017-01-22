@@ -62,24 +62,24 @@ We use `index.html`because web browsers use whatever is in that file as the defa
 
 ### HTML Tags
 
-The "lego pieces" of HTML, or the **elements**, are written in the following way.  We'll be making a `<div>` element \(often used for paragraphs\).
+The "lego pieces" of HTML, or the **elements**, are written in the following way.  We'll be making a `<p>` element \(often used for paragraphs\).
 
 First, there is the **opening tag**:
 
 ```HTML
-<div>
+<p>
 ```
 
 Then comes the **closing tag**, which is exactly the same but has a forward slash at the beginning
 
 ```HTML
-</div>
+</p>
 ```
 
 Then, and most importantly, the content.  **This simply goes between the opening and closing tags**
 
 ```HTML
-<div> I am a paragraph text ... I think. </div>
+<p> I am a paragraph text ... I think. </p>
 ```
 
 ### Structure of an HTML file
@@ -128,15 +128,15 @@ _Feel free to copy the code below, but please type it all out yourself, as that 
 
     <h1>My First Page</h1>
 
-    <div>
+    <p>
         This is my web page. There are many like it, but this one is mine.
-    </div>
+    </p>
 
-    <div>
+    <p>
         My web page is my best friend. It is my life. 
         I must master it as I must master my life.
         Without me, my web page is useless. Without my web page, I am useless.
-    </div>
+    </p>
 
 </body>
 ```
@@ -184,9 +184,9 @@ But as an introduction, add the following to **the head** of your HTML file:
 </head>
 ```
 
-This is **CSS**, which stands for **C**ascading **S**tyle **S**heets** **\(the acronym, again, is fine\).  The idea \(this is the "cascading" in CSS\) is that you can style every element in your page, or all the `<div>` elements or any number of groupings, all in the same way.
+This is **CSS**, which stands for **C**ascading **S**tyle **S**heets** **\(saying just the acronym alone , again, is fine\).  The idea is that you can style every element in your page, or all the `<div>` elements or any number of groupings, all in the same way.  This is the "cascading" in CSS.
 
-This style makes all the &lt;h1&gt; and &lt;div&gt; elements have a width of only 50% of the screen width.
+The style above makes all the &lt;h1&gt; and &lt;div&gt; elements have a width of only 50% of the screen width and a centered position.
 
 * Delete some of these settings \(eg width\) or adjust the values to see what they do.
 * Go to `http://www.w3schools.com/css/default.asp` and find some other style settings to add \(eg, font and border\). 
@@ -205,15 +205,54 @@ We're going to use Plotly and javascript to add an interactive data visualisatio
 
 ### Load the data
 
-First, let's get a data set.  Add the following in the head section \(but not inside of the `<style>` tags of your HTML file:
+First, let's get a data set.  Add the following in the `<head>` section \(but not inside of the `<style>` tags of your HTML file:
+
+```HTML
+http://tinyurl.com/h37rggy
+```
+
+or if that fails:
 
 ```HTML
 <script src="https://raw.githubusercontent.com/maegul/ResChapter/master/page_data.js"></script>
 ```
 
-Two things are happening here.  First, we're using a new tag or element: `<script>` tags.  This is where javascript lives inside of an HTML file.  Second, this element has been given the attribute of `src='https://somewhere.on.the.internet.js'` which is the location of a javascript file on the internet.  In this file is the data that we're going to use.  The effect of importing it like this is that this data set will already be defined and given a variable name, which is `data` in any javascript we want to write ourselves. 
+Two things are happening here.  First, we're using a new tag or element: `<script>` tags.  This is where javascript lives inside of an HTML file.  Second, this element has been given the attribute of `src='https://somewhere.on.the.internet.js'` which is the location of a javascript file on the internet.  In this file is the data that we're going to use.  The effect of importing it like this is that this data set will already be defined and given a variable name, which is `data` , in any javascript we want to write ourselves.
 
- 
+
+
+### Start Javascripting
+
+To write javascript, we need to set up another pair of `<script>` tags.  This time, not in the `<head>` section, but in the `<body>` section.  In fact, put them at the very bottom of the body section so that they will always be last.
+
+```HTML
+...
+<p>
+My web page is my best friend. It is my life.
+I must master it as I must master my life.
+Without me, my web page is useless. Without my web page, I am useless.
+</p>
+
+<script>
+
+    // My javascript will go here
+
+</script>
+
+</body>
+```
+
+---
+
+_**Further down the rabbit hole ...**_
+
+
+
+---
+
+
+
+
 
 ## Find a Home
 
