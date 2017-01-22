@@ -113,7 +113,7 @@ Things that affect the whole page go here.  We won't be using it straight away, 
 
 In the name really ... simply where all the content of your page goes.
 
-### Go!
+### ... Go!
 
 So go ahead and put something like the HTML below in your `index.html` file.
 
@@ -133,12 +133,25 @@ _Feel free to copy the code below, but please type it all out yourself, as that 
     </div>
 
     <div>
-        My web page is my best friend. It is my life. I must master it as I must master my life.
+        My web page is my best friend. It is my life. 
+        I must master it as I must master my life.
         Without me, my web page is useless. Without my web page, I am useless.
     </div>
 
 </body>
 ```
+
+Save the file.  And open it by double-clicking \(your operating system should open the file with the default web-browser on your computer\).  **You just made a web page!!**
+
+---
+
+_**Down the rabbit hole ...**_
+
+
+
+---
+
+
 
 ## You're a Wizard Harry ... Data Viz magic time!
 
