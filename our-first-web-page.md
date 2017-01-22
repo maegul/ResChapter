@@ -141,17 +141,19 @@ _Feel free to copy the code below, but please type it all out yourself, as that 
 </body>
 ```
 
-Save the file.  And open it by double-clicking \(your operating system should open the file with the default web-browser on your computer\).  **You just made a web page!!**
+Save the file.  And open it by double-clicking \(your operating system should open the file with the default web-browser on your computer\).  **You just made a web page!!  It looks a bit simple and rough, but we'll sort that out soon.**
 
 ---
 
-_**Down the rabbit hole ...**_
+_**Down the rabbit hole ... if you want to challenge yourself**_
 
+There are more elements than those we've dealt with so far, though to be fair, you generally don't need many more than what you know already.  
 
+Nonetheless, go to `http://www.w3schools.com/tags/`  \(the first quick reference you should use for anything for making web pages\) and look through the elements there.  Try to use some of them in your page.  Some suggestions are: `<input>, <em>, <code>` and `<img>` \(which will require a picture file to work\).
 
 ---
 
-
+## 
 
 ## You're a Wizard Harry ... Data Viz magic time!
 
