@@ -48,11 +48,25 @@ This isn't necessary right now, but if you like to set everything up before you 
 
 ## Our First Page ... Lego Time!
 
+### The File
 
+With your text editor, start a file called `index.html` .  This is where the document of HTML that will be our web page will live.
+
+---
+
+_**Detail ... if you dare**_
+
+ We use `index.html `because web browsers use whatever is in that file as the default home page for any website.  You can name your HTML file whatever you like, and it will work fine.  But, when we put your page online, you need at least one file to be called `index.html` .  As our pages will likely only have one HTML file, we will almost always be calling all our HTML files this.
+
+---
+
+### Structure of an HTML file
 
 
 
 ## You're a Wizard Harry ... Data Viz time!
+
+## Find a Home
 
 
 
