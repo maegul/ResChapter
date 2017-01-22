@@ -270,7 +270,7 @@ First, we need to give the plot somewhere to live on the page.  So, we need to g
 <div id="my_plot"></div>
 ```
 
-Notice that gave this element an `id` attribute.  This name allows us to refer back to this particular element in javascript \(and CSS\) later on.
+Notice that we gave this element an `id` attribute.  This id or name allows us to refer back to this particular element in javascript \(and CSS\) later on.
 
 #### Plotly
 
@@ -288,7 +288,17 @@ trace1 = {'x': data.rand.x, 'y': data.rand.y, 'mode': 'markers', 'type': 'scatte
 </script>
 ```
 
+As we may have many different traces in a single plot, our trace needs to go into a list of traces, even if, as will be the case for us, it's a list of only one trace:
 
+```JavaScript
+<script>
+
+trace1 = {'x': data.rand.x, 'y': data.rand.y, 'mode': 'markers', 'type': 'scatter'};
+
+traces = [trace1];
+
+</script>
+```
 
 ## Find a Home
 
