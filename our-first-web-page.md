@@ -201,11 +201,19 @@ By now, with the styling added from above, your page should look something like 
 
 Now comes the fun part.
 
-We're going to use javascript to add an interactive data visualisation to our plot using Plotly.
+We're going to use Plotly and javascript to add an interactive data visualisation to our plot.
 
+### Load the data
 
+First, let's get a data set.  Add the following in the head section \(but not inside of the `<style>` tags of your HTML file:
 
+```HTML
+<script src="https://raw.githubusercontent.com/maegul/ResChapter/master/page_data.js"></script>
+```
 
+Two things are happening here.  First, we're using a new tag or element: `<script>` tags.  This is where javascript lives inside of an HTML file.  Second, this element has been given the attribute of `src='https://somewhere.on.the.internet.js'` which is the location of a javascript file on the internet.  In this file is the data that we're going to use.  The effect of importing it like this is that this data set will already be defined and given a variable name, which is `data` in any javascript we want to write ourselves. 
+
+ 
 
 ## Find a Home
 
