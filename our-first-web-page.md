@@ -300,11 +300,21 @@ traces = [trace1];
 </script>
 ```
 
-Now we plot our trace:
+Now we plot our trace.  We provide the id we gave to our `<div>` element above, and then the traces list we just made.
 
 ```JavaScript
+<script>
+
+trace1 = {'x': data.rand.x, 'y': data.rand.y, 'mode': 'markers', 'type': 'scatter'};
+
+traces = [trace1];  // not curly brackets, but square for a list.
+
 Plotly.newPlot(my_plot, traces);
+
+</script>
 ```
+
+
 
 ## Find a Home
 
