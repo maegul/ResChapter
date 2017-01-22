@@ -225,7 +225,7 @@ Two things are happening here.  First, we're using a new tag or element: `<scrip
 
 ### Start Javascripting
 
-To write javascript, we need to set up another pair of `<script>` tags.  This time, not in the `<head>` section, but in the `<body>` section.  In fact, put them at the very bottom of the body section so that they will always be last.
+To write javascript, we need to set up another pair of `<script>` tags.  This time, not in the `<head>` section, but in the `<body>` section.  In fact, put them at the very bottom of the body section so that they will always be last.  This is so that the javascript will know about all the HTML that we have defined before it.
 
 ```HTML
 ...
@@ -259,6 +259,36 @@ console.log(data);
 Nothing will happen to the web page itself.  You need to open up the console of your browser.  How\`to do this will vary from browser to browser, but search in help for "console" or google your browser and "console" and you'll get there.  All it takes is finding it in your browser's menus.  What you'll see in the console is the word "Object" somewhere.  This is your data set.  You should be able to click it to expand it and see the whole data set.  Also note that this console is a javascript command line; you can have some fun in there!!
 
 ---
+
+### Make a Plot
+
+#### Prepare the HTML
+
+First, we need to give the plot somewhere to live on the page.  So, we need to give it an HTML element.  We will use a &lt;div&gt; element, which stands for division.  This is a catch all element for containing other things.  Add the following to your HTML \(in the body section, as with all your other content, but before the script tags, because they need to stay at the bottom\)
+
+```HTML
+<div id="my_plot"></div>
+```
+
+Notice that gave this element an `id` attribute.  This name allows us to refer back to this particular element in javascript \(and CSS\) later on.
+
+#### Plotly
+
+Plotly needs to know two things:  Where you want the plot to go, and what kind of plot with what data you want to make.
+
+To tell Plotly what kind of plot with what data, we need to define a **trace**.  If ever you've plotted in Python, Matlab or R, this will look very familiar.  A trace is simply where you specify the data and say that you want a scatter plot, for instance.
+
+Put the following in your script section:
+
+```JavaScript
+<script>
+
+trace1 = {'x': data.rand.x, 'y': data.rand.y, 'mode': 'markers', 'type': 'scatter'};
+
+</script>
+```
+
+
 
 ## Find a Home
 
