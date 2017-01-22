@@ -256,7 +256,7 @@ So, between the script tags, add the following:
 console.log(data);
 ```
 
-Nothing will happen to the web page itself.  You need to open up the console of your browser.  
+Nothing will happen to the web page itself.  You need to open up the console of your browser.  How\`to do this will vary from browser to browser, but search in help for "console" or google your browser and "console" and you'll get there.  All it takes is finding it in your browser's menus.  What you'll see in the console is the word "Object" somewhere.  This is your data set.  You should be able to click it to expand it and see the whole data set.
 
 ---
 
