@@ -314,7 +314,9 @@ Plotly.newPlot(my_plot, traces);
 </script>
 ```
 
+Look at your web page again.  There should be a plot.  Hover your mouse over it.  You'll see buttons appear at the top.  These let you interact with the plot in different ways including zooming, and panning.  Hover over particular data points and you'll see the raw data values appear.  Your page should look like this now:
 
+![](/assets/first_plot_example.png)
 
 ## Find a Home
 
