@@ -14,7 +14,23 @@
 
 
 
+## Let's get set up
 
+### **Text Editor**
+
+#### Sublime Text
+
+A highly recommended text editor for making web pages is [Sublime Text](http://www.sublimetext.com/2) \(either 2 or the newer version 3\).  It is a nice and popular text editor for any programming you may want to do, but for web pages, it has some basic features like auto completion and HTML and Javascript syntax awareness built in that will help you.
+
+They provide an unending free trial of the complete editor.  If you wish, you can pay for the product, without any feature improvements other than the warmness of your heart.
+
+
+
+#### Atom
+
+A more feature rich editor made specially for making web pages is \[Atom\]\(https://atom.io\)  \(Atom\)\[https://atom.io\]
+
+Otherwise, there are no special requirements
 
 
 
