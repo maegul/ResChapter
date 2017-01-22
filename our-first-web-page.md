@@ -323,12 +323,10 @@ In defining `trace1` above you set a few parameters, such as `'mode': 'markers'.
 * Add the following parameters and set them as you wish \(hint, color can take the names of common colors, or 'rgb\(x, y, z\)':
 
 ```JavaScript
-trace1 = { ...  marker: {color: , size: , line:{color: , width: }}} 
+trace1 = { ...  marker: {color: , size: , line:{color: , width: }}}
 ```
 
 ---
-
-
 
 ## Find a Home
 
