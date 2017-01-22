@@ -73,7 +73,7 @@ First, there is the **opening tag**:
 Then comes the **closing tag**, which is exactly the same but has a forward slash at the beginning
 
 ```HTML
-</div> 
+</div>
 ```
 
 Then, and most importantly, the content.  **This simply goes between the opening and closing tags**
@@ -84,19 +84,19 @@ Then, and most importantly, the content.  **This simply goes between the opening
 
 ### Structure of an HTML file
 
-There are two main sections to an HTML file.
+There are two main sections to an HTML file.  Like everything in HTML, they are just another lego block made with tags.
 
 ```HTML
 <head>
 
-	<!-- Settings that affect the whole page go here -->
+    <!-- Settings that affect the whole page go here -->
 
 </head>
 
 
 <body>
 
-	<!-- The actual content of the page goes here -->
+    <!-- The actual content of the page goes here -->
 
 </body>
 ```
@@ -111,9 +111,38 @@ Things that affect the whole page go here.  We won't be using it straight away, 
 
 **The Body**
 
-In the name really ... simply where all the content of your page goes
+In the name really ... simply where all the content of your page goes.
 
-## You're a Wizard Harry ... Data Viz time!
+### Go!
+
+So go ahead and put something like the HTML below in your `index.html` file.  
+
+_Feel free to copy the code below, but please type it all out yourself, as that will help you learn._
+
+```HTML
+<head>
+	<!-- Settings that affect the whole page go here -->
+</head>
+
+<body>
+
+	<h1>My First Page</h1>
+
+	<div>
+		This is my web page. There are many like it, but this one is mine.
+	</div>
+
+	<div>
+		My web page is my best friend. It is my life. I must master it as I must master my life.
+		Without me, my web page is useless. Without my web page, I am useless.
+	</div>
+
+</body>
+```
+
+
+
+## You're a Wizard Harry ... Data Viz magic time!
 
 ## Find a Home
 
