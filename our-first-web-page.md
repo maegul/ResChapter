@@ -193,9 +193,17 @@ This style makes all the &lt;h1&gt; and &lt;div&gt; elements have a width of onl
 
 ---
 
+By now, with the styling added from above, your page should look something like this.
+
+![](/assets/first_web_page_eg.png)
+
 ## You're a Wizard Harry ... Data Viz magic time!
 
 Now comes the fun part.
+
+We're going to use javascript to add an interactive data visualisation to our plot using Plotly.
+
+
 
 
 
