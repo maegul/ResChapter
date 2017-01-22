@@ -241,7 +241,7 @@ Without me, my web page is useless. Without my web page, I am useless.
 
 ---
 
-_**Further down the rabbit hole ...**_
+_**Further down the rabbit hole ... console logging**_
 
 At this point, you can use one of the most used javascript functions to check whether the data import done above worked.  In programming languages like Python `print my_variable` is often used as a sanity check for whether a variable is what it should be.  We do the same thing with javascript.  We don't print though, instead we log something in the browser's console.
 
@@ -278,7 +278,7 @@ Put the following in your script section:
 ```JavaScript
 <script>
 
-trace1 = {'x': data.rand.x, 'y': data.rand.y, 'mode': 'markers', 'type': 'scatter'};
+trace1 = {x: data.rand.x, y: data.rand.y, mode: markers, type: 'scatter'};
 
 </script>
 ```
@@ -288,7 +288,7 @@ As we may have many different traces in a single plot, our trace needs to go int
 ```JavaScript
 <script>
 
-trace1 = {'x': data.rand.x, 'y': data.rand.y, 'mode': 'markers', 'type': 'scatter'};
+trace1 = {x: data.rand.x, y: data.rand.y, mode: 'markers', type: 'scatter'};
 
 traces = [trace1];
 
@@ -300,7 +300,7 @@ Now we plot our trace.  We provide the id we gave to our `<div>` element above, 
 ```JavaScript
 <script>
 
-trace1 = {'x': data.rand.x, 'y': data.rand.y, 'mode': 'markers', 'type': 'scatter'};
+trace1 = {x: data.rand.x, y: data.rand.y, mode: 'markers', type: 'scatter'};
 
 traces = [trace1];  // not curly brackets, but square for a list.
 
@@ -312,6 +312,23 @@ Plotly.newPlot(my_plot, traces);
 Look at your web page again.  There should be a plot.  Hover your mouse over it.  You'll see buttons appear at the top.  These let you interact with the plot in different ways including zooming, and panning.  Hover over particular data points and you'll see the raw data values appear.  Your page should look like this now:
 
 ![](/assets/first_plot_example.png)
+
+---
+
+_**Further down the rabbit hole ... styling the plot**_
+
+In defining `trace1` above you set a few parameters, such as `'mode': 'markers'.` Try the following and see what they do:
+
+* Change the mode to 'lines'.
+* Add the following parameters and set them as you wish \(hint, color can take the names of common colors, or 'rgb\(x, y, z\)':
+
+```JavaScript
+trace1 = { ...  marker: {color: , size: , line:{color: , width: }}} 
+```
+
+---
+
+
 
 ## Find a Home
 
