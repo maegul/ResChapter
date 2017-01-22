@@ -56,19 +56,66 @@ With your text editor, start a file called `index.html` .  This is where the doc
 
 _**Detail ... if you dare**_
 
- We use `index.html `because web browsers use whatever is in that file as the default home page for any website.  You can name your HTML file whatever you like, and it will work fine.  But, when we put your page online, you need at least one file to be called `index.html` .  As our pages will likely only have one HTML file, we will almost always be calling all our HTML files this.
+We use `index.html`because web browsers use whatever is in that file as the default home page for any website.  You can name your HTML file whatever you like, and it will work fine.  But, when we put your page online, you need at least one file to be called `index.html` .  As our pages will likely only have one HTML file, we will almost always be calling all our HTML files this.
 
 ---
 
+### HTML Tags
+
+The "lego pieces" of HTML, or the **elements**, are written in the following way.  We'll be making a `<div>` element \(often used for paragraphs\).
+
+First, there is the **opening tag**:
+
+```HTML
+<div>
+```
+
+Then comes the **closing tag**, which is exactly the same but has a forward slash at the beginning
+
+```HTML
+</div> 
+```
+
+Then, and most importantly, the content.  **This simply goes between the opening and closing tags**
+
+```HTML
+<div> I am a paragraph text ... I think. </div>
+```
+
 ### Structure of an HTML file
 
+There are two main sections to an HTML file.
 
+```HTML
+<head>
+
+	<!-- Settings that affect the whole page go here -->
+
+</head>
+
+
+<body>
+
+	<!-- The actual content of the page goes here -->
+
+</body>
+```
+
+**The Head**
+
+Things that affect the whole page go here.  We won't be using it straight away, but will later on.  These include:
+
+* Overall title for a page
+* General styling for the whole page \(this get's to be quite fun, powerful and important\)
+* Importing external files
+
+**The Body**
+
+In the name really ... simply where all the content of your page goes
 
 ## You're a Wizard Harry ... Data Viz time!
 
 ## Find a Home
-
-
 
 
 
