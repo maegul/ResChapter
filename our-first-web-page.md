@@ -14,6 +14,10 @@
 
 ---
 
+... TOC ...
+
+---
+
 ## Let's get set up
 
 ### **Text Editor**
@@ -26,7 +30,7 @@ They provide an unending free trial of the complete editor.  If you wish, you ca
 
 #### Atom
 
-An editor with some features made specially for making web pages is [Atom](https://atom.io).  \(Interestingly, it is also made with the web page making technology we're learning here\).  It is free and open source, and may be the future of web page text editors.  
+An editor with some features made specially for making web pages is [Atom](https://atom.io).  \(Interestingly, it is also made with the web page making technology we're learning here\).  It is free and open source, and may be the future of web page text editors.
 
 #### Other
 
@@ -34,13 +38,13 @@ Otherwise, if you already have a text editor that you know and love, stick with 
 
 ### Folders
 
-Each web page we make is best done in a separate folder.  So let's make a folder for all our web pages, and then in that folder a new one for every new web page we want to make.
+Each web page we make is best done in a separate folder.  So let's make a folder for all our web pages, and then in that folder we will make a new one for every new web page we want to make.
 
 ### GitHub account
 
 This isn't necessary right now, but if you like to set everything up before you get started, go to github.com and sign up with your email.
 
-
+---
 
 
 
