@@ -110,7 +110,6 @@ d3.select('button').on('click', function(){
     my_page.append('img')
             .attr('src', 'my_cat_picture.jpg')
 
-
 }
 ```
 
