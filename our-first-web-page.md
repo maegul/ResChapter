@@ -300,6 +300,12 @@ traces = [trace1];
 </script>
 ```
 
+Now we plot our trace:
+
+```JavaScript
+Plotly.newPlot(my_plot, traces);
+```
+
 ## Find a Home
 
 
