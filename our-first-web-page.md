@@ -7,8 +7,6 @@
 3. Add our first interactive data visualisation with Plotly and javascript to our web page.
 4. Upload the files to our first internet home. 
 
-
-
 ## Let's get set up
 
 ### **Text Editor**
@@ -403,7 +401,8 @@ An animated GIF showing the whole process can be accessed here: `https://maegul.
 https://<your github user name>.github.io/<your repository name>/
 ```
 
-* You can find this out directly by going back to the GitHub pages section of the settings.  There GitHub will let you know about your page.
+* You can find this out directly by going back to the GitHub pages section of the settings.  There GitHub will let you know about your page and its location on the web.
+* I don't know if you've noticed ... **you just made a website!**
 
 ![](/assets/page_address.png)
 
