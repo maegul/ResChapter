@@ -357,7 +357,67 @@ window.onresize = function(){
 
 ---
 
-## Find a Home
+## Find a Home for Your Page
+
+An animated GIF showing the whole process can be accessed here: `https://maegul.github.io/plotly_cheat_sheet/github_pages_gif.html`
+
+
+
+#### 1. GitHub account
+
+* Log in and sign up if you haven't to `https://github.com`
+
+#### 2. Make a Repository
+
+* This is a collection of files that go together on GitHub
+
+![](/assets/new_repo.png)
+
+#### 3. Name your Repository
+
+* Generally, give it a name that makes sense as it will be part of the URL to the web page.
+* Initialise with a README.md \(this makes things easier later on\)
+
+![](/assets/name_new_repo.png)
+
+#### 4. Upload Files
+
+* Click "Upload Files"
+* Add your `index.html` file \(remember, it should be named exactly this change the file name if you need to\)
+
+![](/assets/click_upload.png)
+
+* "Commit" your file \(which means upload it\).  You can put some text in the fields if you want to.
+
+![](/assets/commit.png)
+
+
+
+#### 5. Tell GitHub to make it a webpage
+
+* Go to Settings
+
+![](/assets/settings.png)
+
+* Scroll down to "GitHub Pages" and change the Source to the "master branch"
+
+![](/assets/gh_pages.png)
+
+
+
+#### 6. Visit your page
+
+* Your page will be at the following address:
+
+```
+https://<your github user name>.github.io/<your repository name>/
+```
+
+* You can find this out directly by going back to the GitHub pages section of the settings.  There GitHub will let you know about your page.
+
+![](/assets/page_address.png)
+
+
 
 
 
