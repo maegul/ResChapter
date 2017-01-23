@@ -8,6 +8,10 @@ This is the easy stuff.  It's not actually programming.  With this you set up yo
 
 This is the magic.  Javascript is the programming language for websites.  It is much like python/Matlab/R.  But, it is built to create the interactivity we want from a webpage.  If you've programmed before, there's nothing really new to learn here \(apart from some minor differences between javascript and the other languages\).  What will be new, though, is the idea of using javascript to make a web page dynamic and interactive.
 
+### Plotly \(and D3\)
+
+Plotly is a javascript library of functions that will help us a lot in making interactive data visualisations.  It is based on D3, which does the same sort of thing but with a lot more work and control.  We recommend starting out with Plotly, as it's a fantastically user friendly and versatile tool \(see _Where to from here_ on more details about Plotly's features\).  Once you realise that you need to do something especially unique, then you may want to think about digging deeper into D3. 
+
 ## Github Pages
 
 Github is something you've probably heard of before.  It is used for a number of things.  For us, it provides a very straightforward way to put our website online without us having to worry for a second about servers or anything like that.
