@@ -49,14 +49,23 @@ _In short, with universality and ubiquity, you can tell your story, of your rese
 
 ### General Style
 
-* Generally speaking, all the text in this chapter is there to make it easier to understand what is going on.  
+* Generally speaking, all the text in this chapter is there to make it easier to understand what is going on.
 
 * If you're feeling confident however, all of the code snippets have helpful comments in them.  So you could very well scan through the various headings in the chapters and pay close attention to the code snippets and figure out what's going on.
+
+* There are two special kinds of section that provide further material or extensions if you're feeling keen.  They are titles:
+
+  * **More detail ... if you dare**, and
+
+  * **Further down the rabbit hole ...**
+
+  They are optional and can be skipped if you are inclined.  There is one Rabbit Hole section though, in _Our First Web Page_ on Layout styling and CSS that is quite useful going forward \(you'll notice it as it's quite long for an optional extension ... sorry!\)
 
 ### The Sections
 
 * **"Getting Started" — **is intended to give you a pretty good first hand feeling for what making a web page involves.  Think of it as the introductory demonstration we you watch someone else make something before you get a shot.
-* **"Our First Web Page" — **Now it's your turn!  This chapter takes you step by step from beginning to a real life web page.  Again, all of the code snippets alone are pretty helpful even without the accompanying text.
+* **"Our First Web Page" — **Now it's your turn!  This chapter takes you step by step from beginning to a real life web page.  Again, all of the code snippets alone are pretty helpful even without the accompanying text.  The expectation is that you'll basically copy all of the code snippets into your own page, maybe with your own personal alterations, and then you'll be challenged to add something new as an extension of what you've done or by looking up online how to do it.
+* **"Animation and Interactivity"** — This is the sequel to _Our First Web Page_ where you add some features to your web page. 
 
 
 
