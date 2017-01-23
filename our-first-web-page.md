@@ -353,7 +353,7 @@ trace1 = { ...  marker: {color: , size: , line:{color: , width: }}}
 * `Plotly.newPlot` takes a third argument, which is the **layout**.  Go to [https://plot.ly/javascript/figure-labels/](https://plot.ly/javascript/figure-labels/) and figure out how to add a title and axis titles to this plot.  Eg:
 
 ```JavaScript
-layout = {title:  , xaxis: {...}} 
+layout = {title: ... , xaxis: {...}} 
 Plotly.newPlot(my_plot, traces, layout)
 ```
 
