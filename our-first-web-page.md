@@ -4,16 +4,10 @@
 
 1. Get set up with the tools we need to make a web page.
 2. Make our first HTML file.
-3. Add our first interactive data visualisation with javascript to our web page.
-4. Upload the files to our first internet home.
+3. Add our first interactive data visualisation with Plotly and javascript to our web page.
+4. Upload the files to our first internet home. 
 
----
 
-&lt;!-- toc --&gt;
-
-&lt;!-- toc --&gt;
-
----
 
 ## Let's get set up
 
