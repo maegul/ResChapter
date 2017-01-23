@@ -9,7 +9,7 @@
 
 ---
 
-... TOC ...
+&lt;!-- toc --&gt;
 
 ---
 
@@ -361,8 +361,6 @@ window.onresize = function(){
 
 An animated GIF showing the whole process can be accessed here: `https://maegul.github.io/plotly_cheat_sheet/github_pages_gif.html`
 
-
-
 #### 1. GitHub account
 
 * Log in and sign up if you haven't to `https://github.com`
@@ -391,8 +389,6 @@ An animated GIF showing the whole process can be accessed here: `https://maegul.
 
 ![](/assets/commit.png)
 
-
-
 #### 5. Tell GitHub to make it a webpage
 
 * Go to Settings
@@ -402,8 +398,6 @@ An animated GIF showing the whole process can be accessed here: `https://maegul.
 * Scroll down to "GitHub Pages" and change the Source to the "master branch"
 
 ![](/assets/gh_pages.png)
-
-
 
 #### 6. Visit your page
 
@@ -416,8 +410,4 @@ https://<your github user name>.github.io/<your repository name>/
 * You can find this out directly by going back to the GitHub pages section of the settings.  There GitHub will let you know about your page.
 
 ![](/assets/page_address.png)
-
-
-
-
 
