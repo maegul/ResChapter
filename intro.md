@@ -6,7 +6,7 @@
 
 Sooo ... why would you make things hard for yourself?  When you can python away or hack in Matlab or RStudio, why would we turn our data visualisation problem into a "learning to make a web page" problem?  Geek masochism?  Perhaps.  The real answer though is far more impressive.  Power!  Like ... magical force lightening power.
 
-![](/images/darth_squirrel.jpg)
+![](/assets/darth_squirrel.jpg)
 
 ### There is a disturbance ...
 
