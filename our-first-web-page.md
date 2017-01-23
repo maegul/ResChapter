@@ -78,7 +78,7 @@ Then comes the **closing tag**, which is exactly the same but has a forward slas
 Then, and most importantly, the content.  **This simply goes between the opening and closing tags**
 
 ```HTML
-<p> I am a paragraph text ... I think. </p>
+<p> I am a paragraph of text ... I think. </p>
 ```
 
 ### Structure of an HTML file
@@ -339,9 +339,9 @@ Plotly.newPlot(my_plot, traces, layout)
 
 ##### _**Further down the rabbit hole ... Making the plot centered and 50% wide with CSS**_
 
-Your plot will be filling the whole width of the page, whilst, if you added the CSS from above, your text and heading should all be nicely centered.  You can make the plot do exactly the same thing by adding it to the styling.  If you recall, the styles we defined applied to all `p` and `h1` elements.  All you need to do is add your plot to the same style definition.  
+Your plot will be filling the whole width of the page, whilst, if you added the CSS from above, your text and heading should all be nicely centered.  You can make the plot do exactly the same thing by adding it to the styling.  If you recall, the styles we defined applied to all `p` and `h1` elements.  All you need to do is add your plot to the same style definition.
 
-Use the `id` of the `div` we made for the plot \(ie, `my_plot`_\) _but put a hash in front of it_ _\(CSS needs to know whether we're dealing with element types or ids\) and add it to the beginning of the style rule.
+Use the `id` of the `div` we made for the plot \(ie, `my_plot`_\) \_but put a hash in front of it_ \_\(CSS needs to know whether we're dealing with element types or ids\) and add it to the beginning of the style rule.
 
 ```
 #my_plot
@@ -351,15 +351,11 @@ You can go even further and make the plot change as the size of your browser win
 
 ```JavaScript
 window.onresize = function(){
-	Plotly.Plots.resize(my_plot);
+    Plotly.Plots.resize(my_plot);
 }
 ```
 
 ---
-
-
-
-
 
 ## Find a Home
 
