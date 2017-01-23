@@ -53,7 +53,7 @@ With your text editor, start a file called `index.html` .  This is where the doc
 
 ---
 
-_**Detail ... if you dare**_
+##### _**Detail ... if you dare**_
 
 We use `index.html`because web browsers use whatever is in that file as the default home page for any website.  You can name your HTML file whatever you like, and it will work fine.  But, when we put your page online, you need at least one file to be called `index.html` .  As our pages will likely only have one HTML file, we will almost always be calling all our HTML files this.
 
@@ -144,7 +144,7 @@ Save the file.  And open it by double-clicking \(your operating system should op
 
 ---
 
-_**Further down the rabbit hole ... More elements**_
+##### _**Further down the rabbit hole ... More elements**_
 
 There are more elements than those we've dealt with so far, though to be fair, you generally don't need many more than what you know already.
 
@@ -155,7 +155,7 @@ There are more elements than those we've dealt with so far, though to be fair, y
 
 ---
 
-_**Further down the rabbit hole ... Styling and CSS**_
+##### _**Further down the rabbit hole ... Styling and CSS**_
 
 You may wish for the layout of your page to be nicer.  When it comes to styling a web page, this is generally the most common aspect to be worked on.  Styling is a whole little world of its own that we won't cover too much here.
 
@@ -241,7 +241,7 @@ Without me, my web page is useless. Without my web page, I am useless.
 
 ---
 
-_**Further down the rabbit hole ... console logging**_
+##### _**Further down the rabbit hole ... console logging**_
 
 At this point, you can use one of the most used javascript functions to check whether the data import done above worked.  In programming languages like Python `print my_variable` is often used as a sanity check for whether a variable is what it should be.  We do the same thing with javascript.  We don't print though, instead we log something in the browser's console.
 
@@ -315,7 +315,7 @@ Look at your web page again.  There should be a plot.  Hover your mouse over it.
 
 ---
 
-_**Further down the rabbit hole ... styling the plot**_
+##### _**Further down the rabbit hole ... styling the plot**_
 
 In defining `trace1` above you set a few parameters, such as `'mode': 'markers'.` Try the following and see what they do:
 
@@ -326,7 +326,7 @@ In defining `trace1` above you set a few parameters, such as `'mode': 'markers'.
 trace1 = { ...  marker: {color: , size: , line:{color: , width: }}}
 ```
 
-* `Plotly.newPlot` takes a third argument, which is the **layout**.  Go to [https://plot.ly/javascript/figure-labels/](https://plot.ly/javascript/figure-labels/) and add a title and axis titles to this plot.  Eg:
+* `Plotly.newPlot` takes a third argument, which is the **layout**.  Go to [https://plot.ly/javascript/figure-labels/](https://plot.ly/javascript/figure-labels/) and figure our how to add a title and axis titles to this plot.  Eg:
 
 ```JavaScript
 layout = {title:  , xaxis: {...}} 
@@ -334,6 +334,32 @@ Plotly.newPlot(my_plot, traces, layout)
 ```
 
 ---
+
+---
+
+##### _**Further down the rabbit hole ... Making the plot centered and 50% wide with CSS**_
+
+Your plot will be filling the whole width of the page, whilst, if you added the CSS from above, your text and heading should all be nicely centered.  You can make the plot do exactly the same thing by adding it to the styling.  If you recall, the styles we defined applied to all `p` and `h1` elements.  All you need to do is add your plot to the same style definition.  
+
+Use the `id` of the `div` we made for the plot \(ie, `my_plot`_\) _but put a hash in front of it_ _\(CSS needs to know whether we're dealing with element types or ids\) and add it to the beginning of the style rule.
+
+```
+#my_plot
+```
+
+You can go even further and make the plot change as the size of your browser window changes.  Insert the following at the bottom of your javascript.  I hope you can tell what this code is doing \(hint: `onresize` = on resize\).  This is what we mean when we say that javascript is built to make interactive web pages.
+
+```JavaScript
+window.onresize = function(){
+	Plotly.Plots.resize(my_plot);
+}
+```
+
+---
+
+
+
+
 
 ## Find a Home
 
