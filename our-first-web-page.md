@@ -152,7 +152,7 @@ There are more elements than those we've dealt with so far, though to be fair, y
 
 ---
 
-##### _**Further down the rabbit hole ... Layout, and Styling with CSS**_
+##### _**Further down the rabbit hole ... Layout, and Styling with CSS \(this one is useful!!\)**_
 
 You may wish for the layout of your page to be nicer.  When it comes to styling a web page, this is generally the most common aspect to be worked on.  Styling is a whole little world of its own \(with colours and fonts oh my!\) that we won't cover too much here.  But the basics layout is worth a little detour here.
 
