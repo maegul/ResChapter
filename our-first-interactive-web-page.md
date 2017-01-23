@@ -33,16 +33,20 @@ Plotly.d3.select('#my_butt').on('click', function(){
 * The `select('#my_butt')` function \(yea, I hear it, but I'm sticking with this functional id\) grabs the button for us to use in javascript.
 * The `on.('click', function(){})` function listens for a click, and on a click, does what ever is in the function.
 
-Test to see that your event listener is working by placing the following into the function:
+Test to see that your event listener is working by placing the following into the function and clicking the button:
 
 ```JavaScript
 Plotly.d3.select('#my_butt').on('click', function(){
-        
+
         window.alert('You've just made an annoying pop up.  Congratulations.')
 
         }
 )
 ```
+
+You could have also used a `console.log();`.
+
+
 
 ## Animation with Plotly
 
