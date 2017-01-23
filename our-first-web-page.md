@@ -149,40 +149,65 @@ There are more elements than those we've dealt with so far, though to be fair, y
 
 ---
 
-##### _**Further down the rabbit hole ... Styling and CSS**_
+##### _**Further down the rabbit hole ... Layout, and Styling with CSS**_
 
-You may wish for the layout of your page to be nicer.  When it comes to styling a web page, this is generally the most common aspect to be worked on.  Styling is a whole little world of its own that we won't cover too much here.
+You may wish for the layout of your page to be nicer.  When it comes to styling a web page, this is generally the most common aspect to be worked on.  Styling is a whole little world of its own \(with colours and fonts oh my!\) that we won't cover too much here.  But the basics layout is worth a little detour here.
 
-But as an introduction, add the following to **the head** of your HTML file:
+The main strategy here is to put our blocks _**inside **_of another one, and then apply some _**style rules**_ to that one element.
+
+So, first, add a &lt;div&gt; element to your HTML and put all the other elements inside of it like so:
+
+```HTML
+<div>
+
+    <h1>My First Page</h1>
+    
+    <p>
+    This is my web page. There are many like it, but this one is mine.
+    </p>
+    
+    <p>
+    My web page is my best friend. It is my life.
+    I must master it as I must master my life.
+    Without me, my web page is useless. Without my web page, I am useless.
+    </p>
+
+</div>
+```
+
+Note that the indentation is entirely unnecessary.  It just helps us keep track of what's going on.
+
+Now give the `<div>` element a name using the `id` attribute, like so:  &lt;div id='container'&gt; ... &lt;/div&gt;.  This id or name let's us refer back to it later.
+
+Now, we'll add a style rule.  Add a &lt;style&gt; element to your head \(as this will affect the whole page\) and the rule that is below:
 
 ```HTML
 <head> <!-- No need to copy the head tags if you already have them!! -->
 
     <style>
-
-    /* This style applies to both p and h1 elements  */
-    p, h1 {  
-        /* Makes the width 50% of the screen width  */
-        width: 50%; 
-
-        /* automatically puts equal margins on the sides so that it they are centered horizontally */
-        margin: auto; 
-
-        /* Adds a little space on the bottom of each div or h1 element */
-        margin-bottom: 20px;
-    }
+    
+        /* This first word tells the rule what element(s) of our page to apply to */
+        /* the hash tells the browser to apply the rule to the element with the id 'container' */
+    	#container {
+    
+            /* Makes the element have a width of 50% of screen width */
+	    width: 50%; 
+		
+	    /* Automatically adds blank space on the sides to center it horizontally */
+	    margin: auto;
+	}
 
     </style>
 
 </head>
 ```
 
-This is **CSS**, which stands for **C**ascading **S**tyle **S**heets** **\(saying just the acronym alone , again, is fine\).  The idea is that you can style every element in your page, or all the `<p>` elements or any number of groupings, all in the same way.  This is the "cascading" in CSS.
+This is **CSS**, which stands for **C**ascading **S**tyle **S**heets** **\(saying just the acronym alone , again, is fine\).  The idea is that a set of style rules like the one above can apply to all sorts of combinations of elements, which makes our formatting easier.  Here, we've only applied it to our one `<div>` element.
 
 The styling above makes all the &lt;h1&gt; and &lt;p&gt; elements have a width of only 50% of the screen width and a centered position.
 
 * Delete some of these settings \(eg width\) or adjust the values to see what they do.
-* Go to `http://www.w3schools.com/css/default.asp` and find some other style settings to add \(eg, font and border\). 
+* Go to `http://www.w3schools.com/css/default.asp` and find some other style settings to add \(eg, font and border\).  Try to apply them to other elements by giving them unique ids. 
 
 ---
 
@@ -402,7 +427,7 @@ https://<your github user name>.github.io/<your repository name>/
 ```
 
 * You can find this out directly by going back to the GitHub pages section of the settings.  There GitHub will let you know about your page and its location on the web.
-* I don't know if you've noticed ... **you just made a website!**
+* I don't know if you've noticed ... **but** **you just made a website!**
 
 ![](/assets/page_address.png)
 
