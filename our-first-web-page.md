@@ -350,7 +350,7 @@ In defining `trace1` above you set a few parameters, such as `'mode': 'markers'.
 trace1 = { ...  marker: {color: , size: , line:{color: , width: }}}
 ```
 
-* `Plotly.newPlot` takes a third argument, which is the **layout**.  Go to [https://plot.ly/javascript/figure-labels/](https://plot.ly/javascript/figure-labels/) and figure our how to add a title and axis titles to this plot.  Eg:
+* `Plotly.newPlot` takes a third argument, which is the **layout**.  Go to [https://plot.ly/javascript/figure-labels/](https://plot.ly/javascript/figure-labels/) and figure out how to add a title and axis titles to this plot.  Eg:
 
 ```JavaScript
 layout = {title:  , xaxis: {...}} 
