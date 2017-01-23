@@ -311,7 +311,7 @@ Plotly.newPlot(my_plot, traces);
 
 Look at your web page again.  There should be a plot.  Hover your mouse over it.  You'll see buttons appear at the top.  These let you interact with the plot in different ways including zooming, and panning.  Hover over particular data points and you'll see the raw data values appear.  Your page should look like this now:
 
-![](/assets/first_plot_example.png)
+![](/assets/first_plot_eg.png)
 
 ---
 
@@ -324,6 +324,13 @@ In defining `trace1` above you set a few parameters, such as `'mode': 'markers'.
 
 ```JavaScript
 trace1 = { ...  marker: {color: , size: , line:{color: , width: }}}
+```
+
+* `Plotly.newPlot` takes a third argument, which is the **layout**.  Go to https://plot.ly/javascript/figure-labels/ and add a title and axis titles to this plot.  Eg:
+
+```JavaScript
+layout = {title:  , xaxis: {...}} 
+Plotly.newPlot(my_plot, traces, layout)
 ```
 
 ---
