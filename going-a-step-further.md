@@ -1,6 +1,6 @@
 # Where to from Here
 
-So, you've made your first web page.  What now.  Well, a web page just doesn't come out of no where.  It starts with a story or message that wants to be told and shared.  So, if you're just starting your research career, there may be some time before you have a story that you want to tell.  
+So, you've made your first web page.  What now.  Well, a web page just doesn't come out of no where.  It starts with a story or message that wants to be told and shared.  So, if you're just starting your research career, there may be some time before you have a story that you want to tell.
 
 Otherwise, keep this new skill alive, make some small pages that show something simple.  Maybe try to challenge yourself to make something a bit complex, but is the sort of thing that may well suit your research area and the kinds of pages you will want to make in the future.
 
@@ -30,5 +30,11 @@ D3 is the engine underneath Plotly.  If you want fine grain control of your data
 
 There are plenty of little tips and tricks in using HTML and CSS.  See as a general reference `http://www.w3schools.com`.  And, if you want to delve deeper into the detail, see `https://developer.mozilla.org/en-US/`.
 
-_**And of course, come to one of our ResBaz workshops or meetups.**_
+A very useful tool for laying out your pages is FlexBox.  It's lots of fun.  See for a cheat sheet: `https://css-tricks.com/snippets/css/a-guide-to-flexbox/`
+
+
+
+---
+
+_**And of course, come to one or all of our ResBaz workshops or meetups!!  Happy hacking!**_
 
