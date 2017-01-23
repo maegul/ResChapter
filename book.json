@@ -3,7 +3,7 @@
         "etoc"
     ],
         "etoc": {
-            "mindepth": 3,
+            "mindepth": 2,
             "maxdepth": 5,
             "notoc": false
         }
