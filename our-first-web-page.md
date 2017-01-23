@@ -136,6 +136,8 @@ _Feel free to copy the code below, but please type it all out yourself, as that 
 
 Save the file.  And open it by double-clicking \(your operating system should open the file with the default web-browser on your computer\).  **You just made a web page!!  It looks a bit simple and rough, but we'll sort that out soon.**
 
+Remember to **refresh** the page each time you make a change.
+
 ---
 
 ##### _**Further down the rabbit hole ... More elements**_
