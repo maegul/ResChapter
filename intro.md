@@ -47,7 +47,16 @@ _In short, with universality and ubiquity, you can tell your story, of your rese
 
 ## How to use this chapter to get started
 
-* Mention the details and going deeper sections
+### General Style
+
+* Generally speaking, all the text in this chapter is there to make it easier to understand what is going on.  
+
+* If you're feeling confident however, all of the code snippets have helpful comments in them.  So you could very well scan through the various headings in the chapters and pay close attention to the code snippets and figure out what's going on.
+
+### The Sections
+
+* **"Getting Started" — **is intended to give you a pretty good first hand feeling for what making a web page involves.  Think of it as the introductory demonstration we you watch someone else make something before you get a shot.
+* **"Our First Web Page" — **Now it's your turn!  This chapter takes you step by step from beginning to a real life web page.  Again, all of the code snippets alone are pretty helpful even without the accompanying text.
 
 
 
