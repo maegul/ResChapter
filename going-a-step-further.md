@@ -4,11 +4,9 @@ So, you've made your first web page.  What now.  Well, a web page just doesn't c
 
 Otherwise, keep this new skill alive, make some small pages that show something simple.  Maybe try to challenge yourself to make something a bit complex, but is the sort of thing that may well suit your research area and the kinds of pages you will want to make in the future.
 
-Try to engage with the community.  Data visualisation is now a profession, along with data science and web page development and design.  You may be new to the game, but chances are you have interesting stories to tell.
+Try to engage with the community.  Data visualisation is now a profession, along with data science and web page development and design.  You may be new to the game, but chances are you have interesting stories to tell, and that means quite a bit in the web page data visualisation community. 
 
 Once you have your story though treat the web page for it as you would a publication or a thesis.  Chances are it won't be a quick all nighter, but with a bit of time and patience, you will make something wonderful and powerful.
-
-
 
 ## Plotly
 
