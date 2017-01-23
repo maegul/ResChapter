@@ -11,7 +11,7 @@ You made a web page, with a plot in it, that is interactive.  But you can go fur
 
 To add a button we use, can you guess, the HTML button element.  The text between the tags will be the text in the visual button on the page.  Add it to you HTML, preferably before the `<div id='my_plot'>` element.  And give it an `id` too, so we can use it later.
 
-```HTML
+```
 <button id='my_butt'>Let's Dance</button>
 ```
 
@@ -19,8 +19,9 @@ To add a button we use, can you guess, the HTML button element.  The text betwee
 
 Now we want our web page to do something whenever the viewer clicks this button.  We do this with what's called an event listener.  Here we will be using the D3 library, which is built into Plotly.  Add the following to your javascript, after the plotting function.
 
-```JavaScript
+```js
 //        selects the button     listens for mouse clicks  and does anything inside the function
+
 Plotly.d3.select('#my_butt').on('click', function(){
 
 
@@ -33,8 +34,9 @@ Plotly.d3.select('#my_butt').on('click', function(){
 
 Test to see that your event listener is working by placing the following into the function and clicking the button:
 
-```JavaScript
+```js
 //        selects the button     listens for mouse clicks  and does anything inside the function
+
 Plotly.d3.select('#my_butt').on('click', function(){
 
         // This all happens whenever the button is clicked.
@@ -44,6 +46,8 @@ Plotly.d3.select('#my_butt').on('click', function(){
         }
 )
 ```
+
+
 
 You could have also used a `console.log();`.
 
@@ -57,13 +61,13 @@ What we're going to do is animate a change in the data, where each circle of our
 
 To recap, by importing a javascript file located on the internet, we imported a dataset into our web page, that is called, simply enough, `data`.  We've already used this to make our first plot, which really just looked completely random.  And it was random.  But the whole data set we've loaded, which we access as `data`, has multiple single data sets inside of it.  For the first plot, as you should remember, we made our plot as follows:
 
-```JavaScript
+```js
 trace1 = {x: data.rand.x, y: data.rand.y, mode: markers, type: 'scatter'};
 ```
 
 ... using a single dataset called "rand", which is inside data \(thus the `data - dot - x` syntax\), and then assigning the individual x-axis and y-axis components of the data to the appropriate axes.  Besides "rand", there are other datasets inside data.  This includes one for each letter of the alphabet, and come named with punctuation marks as well.   The code below demonstrates how to access the various datasets inside `data`.
 
-```JavaScript
+```js
 var trace1 = {
     // x coord data for letter 'a'
     x: data.a.x,

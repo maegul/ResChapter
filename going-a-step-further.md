@@ -8,6 +8,8 @@ Try to engage with the community.  Data visualisation is now a profession, along
 
 Once you have your story though treat the web page for it as you would a publication or a thesis.  Chances are it won't be a quick all nighter, but with a bit of time and patience, you will make something wonderful and powerful.
 
+
+
 ## Plotly
 
 Plotly is a powerful data visualisation tool.  Here are some features worth looking into:
@@ -31,8 +33,6 @@ D3 is the engine underneath Plotly.  If you want fine grain control of your data
 There are plenty of little tips and tricks in using HTML and CSS.  See as a general reference `http://www.w3schools.com`.  And, if you want to delve deeper into the detail, see `https://developer.mozilla.org/en-US/`.
 
 A very useful tool for laying out your pages is FlexBox.  It's lots of fun.  See for a cheat sheet: `https://css-tricks.com/snippets/css/a-guide-to-flexbox/`
-
-
 
 ---
 
