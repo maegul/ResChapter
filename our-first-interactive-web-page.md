@@ -1,6 +1,3 @@
-* Challenge exercise
-* Add to first page a button that adds and takes away the fundamentals \(use normal JS or the plotly API for buttons?\)
-
 # Animation and Interaction
 
 ## Objectives
@@ -185,7 +182,7 @@ Fortunately this is all resolved with one simple line.  If you go back to the `P
 layout = {
         // The range of the xaxis,
         xaxis: {range: [-5, 105]}, 
-        
+
         // The range of the y axis, made backwards here to reverse the upside down letters.
         yaxis: {range: [105, -5]}
         };
