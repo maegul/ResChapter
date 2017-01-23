@@ -144,6 +144,7 @@ There are more elements than those we've dealt with so far, though to be fair, y
 
 * Nonetheless, go to `http://www.w3schools.com/tags/`  \(the first quick reference you should use for anything for making web pages\) and look through the elements there.  
 * Try to use some of them in your page.  Some suggestions are: `<input>, <em>, <code>` and `<img>` \(which will require a picture file to work\).
+* Generally feel free to add your own stuff.  In fact, please hack the frack our of your web page!!
 
 ---
 
@@ -153,7 +154,7 @@ There are more elements than those we've dealt with so far, though to be fair, y
 
 You may wish for the layout of your page to be nicer.  When it comes to styling a web page, this is generally the most common aspect to be worked on.  Styling is a whole little world of its own \(with colours and fonts oh my!\) that we won't cover too much here.  But the basics layout is worth a little detour here.
 
-The main strategy here is to put our blocks _**inside **_of another one, and then apply some _**style rules**_ to that one element.
+The main strategy here is to put our blocks _**inside **\_of another one, and then apply some _**style rules**\_ to that one element.
 
 So, first, add a &lt;div&gt; element to your HTML and put all the other elements inside of it like so:
 
@@ -161,11 +162,11 @@ So, first, add a &lt;div&gt; element to your HTML and put all the other elements
 <div>
 
     <h1>My First Page</h1>
-    
+
     <p>
     This is my web page. There are many like it, but this one is mine.
     </p>
-    
+
     <p>
     My web page is my best friend. It is my life.
     I must master it as I must master my life.
@@ -177,7 +178,11 @@ So, first, add a &lt;div&gt; element to your HTML and put all the other elements
 
 Note that the indentation is entirely unnecessary.  It just helps us keep track of what's going on.
 
-Now give the `<div>` element a name using the `id` attribute, like so:  &lt;div id='container'&gt; ... &lt;/div&gt;.  This id or name let's us refer back to it later.
+Now give the `<div>` element a name using the `id` attribute, like so:  
+
+`<div id='container'> ... </div>`. 
+
+This id or name let's us refer back to it later.
 
 Now, we'll add a style rule.  Add a &lt;style&gt; element to your head \(as this will affect the whole page\) and the rule that is below:
 
@@ -185,29 +190,27 @@ Now, we'll add a style rule.  Add a &lt;style&gt; element to your head \(as this
 <head> <!-- No need to copy the head tags if you already have them!! -->
 
     <style>
-    
+
         /* This first word tells the rule what element(s) of our page to apply to */
         /* the hash tells the browser to apply the rule to the element with the id 'container' */
-    	#container {
-    
+        #container {
+
             /* Makes the element have a width of 50% of screen width */
-	    width: 50%; 
-		
-	    /* Automatically adds blank space on the sides to center it horizontally */
-	    margin: auto;
-	}
+        width: 50%; 
+
+        /* Automatically adds blank space on the sides to center it horizontally */
+        margin: auto;
+    }
 
     </style>
 
 </head>
 ```
 
-This is **CSS**, which stands for **C**ascading **S**tyle **S**heets** **\(saying just the acronym alone , again, is fine\).  The idea is that a set of style rules like the one above can apply to all sorts of combinations of elements, which makes our formatting easier.  Here, we've only applied it to our one `<div>` element.
+This is **CSS**, which stands for **C**ascading **S**tyle **S**heets** **\(saying just the acronym alone , again, is fine\).  The idea is that a set of style rules like the one above can apply to all sorts of combinations of elements, which makes our formatting easier.  Here, we've only applied it to our one `<div id='container'>` element.
 
-The styling above makes all the &lt;h1&gt; and &lt;p&gt; elements have a width of only 50% of the screen width and a centered position.
-
-* Delete some of these settings \(eg width\) or adjust the values to see what they do.
-* Go to `http://www.w3schools.com/css/default.asp` and find some other style settings to add \(eg, font and border\).  Try to apply them to other elements by giving them unique ids. 
+* Delete some of these settings \(eg width\) or adjust the values to see what they do \(the margin setting can take numbers too\).
+* Go to `http://www.w3schools.com/css/default.asp` and find some other style settings to add \(eg, font and border\).  Try to apply them to other elements, by making new rules and by giving them unique ids. 
 
 ---
 
@@ -358,13 +361,7 @@ Plotly.newPlot(my_plot, traces, layout)
 
 ##### _**Further down the rabbit hole ... Making the plot centered and 50% wide with CSS**_
 
-Your plot will be filling the whole width of the page, whilst, if you added the CSS from above, your text and heading should all be nicely centered.  You can make the plot do exactly the same thing by adding it to the styling.  If you recall, the styles we defined applied to all `p` and `h1` elements.  All you need to do is add your plot to the same style definition.
-
-Use the `id` of the `div` we made for the plot \(ie, `my_plot`_\) \_but put a hash in front of it_ \_\(CSS needs to know whether we're dealing with element types or ids\) and add it to the beginning of the style rule.
-
-```
-#my_plot
-```
+If you added the styling rule from above, your plot should also be arranged in the same way as your paragraphs and heading.
 
 You can go even further and make the plot change as the size of your browser window changes.  Insert the following at the bottom of your javascript.  I hope you can tell what this code is doing \(hint: `onresize` = on resize\).  This is what we mean when we say that javascript is built to make interactive web pages.
 
