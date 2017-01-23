@@ -6,5 +6,6 @@
         "simple-page-toc": {
             "maxDepth": 5,
             "skipFirstH1": true
-           }}
+           }
+           }
 }
