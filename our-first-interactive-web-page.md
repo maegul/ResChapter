@@ -70,10 +70,10 @@ trace1 = {x: data.rand.x, y: data.rand.y, mode: markers, type: 'scatter'};
 var trace1 = {
     // x coord data for letter 'a'
     x: data.a.x,
-    
+
     // y coord data for letter 'a'
     y: data.a.y,
-    
+
     mode: 'markers'
 };
 
@@ -99,7 +99,7 @@ data.exclam.x
 
 ### Let's change the data
 
-Our plot was a scatter plot of `data.rand.x` and `data.rand.y`.   Let's animate a change of the data to `data.a`.  
+Our plot was a scatter plot of `data.rand.x` and `data.rand.y`.   Let's animate a change of the data to `data.a`.
 
 The animation function needs to know what plot it's going to animate, and then what change is going to be animated.  So, to animate a change to data.a, the function looks like below.  Add it to your button event listener \(and maybe get rid of pop up too\).
 
@@ -108,8 +108,8 @@ Plotly.d3.select('#my_butt').on('click', function(){
 
     Plotly.animate(
             my_plot, 
-	    {data: [{x: data.a.x, y:data.a.y}]}
-	)
+        {data: [{x: data.a.x, y:data.a.y}]}
+    )
 
 })
 ```
@@ -119,13 +119,79 @@ Plotly.d3.select('#my_butt').on('click', function(){
 
 Refresh and look at your page again.  Clicking the button should animate a change.
 
-
-
 ### Changing the Duration
 
-`Plotly.animate` can take a third argument which defines how long the animation takes to complete.  This can be useful for controlling the amount of information that is being changed in your specific visualisation.  The structure of the third argument looks like
+`Plotly.animate` can take a third argument which defines how long the animation takes to complete.  This can be useful for controlling the amount of information that is being changed in your specific visualisation.  The structure of the third argument looks like:
 
- 
+```Javascript
+{
+	// length of the whole transition, including any static time
+	frame: {duration: 2000}, 
+	
+	// length of any actual animation or movement
+	transition: {duration: 2000}
+}
+```
+
+The thinking here is that there are two time lengths defined.  The first, **frame**, is the total time of the transition.  The second, **transition**, is the time for any animation.  So if the **frame** time were longer than the **animation **time, then the left over time would involve nothing happening, everything being still, until the next animation or transition occurred.  Having the two times essentially allows for pausing for a precise amount of time, if that's something that's useful you.  Otherwise, we simply change both durations if we want to increase the duration of the animation.  
+
+Adding the above to our animate function looks like:
+
+```JavaScript
+Plotly.d3.select('#my_butt').on('click', function(){
+
+    Plotly.animate(
+            my_plot, 
+            {data: [{x: data.a.x, y:data.a.y}]},
+            {
+               // length of the whole transition, including any static time
+               frame: {duration: 2000},
+               
+               // length of any actual animation or movement
+               transition: {duration: 2000}
+            } 
+    )
+
+})
+```
+
+
+
+---
+
+##### _Further down the rabbit hole ... adding another animation_ 
+
+There's no need to stop at one.  
+
+* Add another `Plotly.animate` function after the first one.  They will be run one after the other.  You change the data to another dataset, `data.z.x` and `data.z.y` for instance.
+* Instead of changing the dataset, can you change the size or colour of the markers of the plot?
+* Add and adjust the duration parameters to see how they work, especially when there are differences between **frame** and **transition**.
+
+---
+
+
+
+## Fixing some minor issues ... Changing the layout of the plot 
+
+You may have noticed a few things:
+
+* The dataset `data.a` depicts the letter "A".
+* But it is upside down.
+* You may have also seen the ranges of the axes change a little abruptly in between individual animations.
+
+This is because the dataset was made with graphics coordinates, which puts the y-axis the other way round so that zero is at the top left and goes down the page.  
+
+Also, Plotly tries to automatically optimise the ranges of the axes to suit the data being viewed.  When animating a change in the data though, you generally want the axis to stay unchanged so that you have a point of reference for the changes in the data.
+
+Fortunately this is all resolved with one simple line.
+
+```JavaScript
+layout = {xaxis: {range: [-5, 105]}, yaxis: {range: [105, -5]}};
+
+
+```
+
+
 
 ### Introduction
 
