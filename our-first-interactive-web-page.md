@@ -125,15 +125,15 @@ Refresh and look at your page again.  Clicking the button should animate a chang
 
 ```Javascript
 {
-	// length of the whole transition, including any static time
-	frame: {duration: 2000}, 
-	
-	// length of any actual animation or movement
-	transition: {duration: 2000}
+    // length of the whole transition, including any static time
+    frame: {duration: 2000}, 
+
+    // length of any actual animation or movement
+    transition: {duration: 2000}
 }
 ```
 
-The thinking here is that there are two time lengths defined.  The first, **frame**, is the total time of the transition.  The second, **transition**, is the time for any animation.  So if the **frame** time were longer than the **animation **time, then the left over time would involve nothing happening, everything being still, until the next animation or transition occurred.  Having the two times essentially allows for pausing for a precise amount of time, if that's something that's useful you.  Otherwise, we simply change both durations if we want to increase the duration of the animation.  
+The thinking here is that there are two time lengths defined.  The first, **frame**, is the total time of the transition.  The second, **transition**, is the time for any animation.  So if the **frame** time were longer than the **animation **time, then the left over time would involve nothing happening, everything being still, until the next animation or transition occurred.  Having the two times essentially allows for pausing for a precise amount of time, if that's something that's useful you.  Otherwise, we simply change both durations if we want to increase the duration of the animation.
 
 Adding the above to our animate function looks like:
 
@@ -146,7 +146,7 @@ Plotly.d3.select('#my_butt').on('click', function(){
             {
                // length of the whole transition, including any static time
                frame: {duration: 2000},
-               
+
                // length of any actual animation or movement
                transition: {duration: 2000}
             } 
@@ -155,13 +155,11 @@ Plotly.d3.select('#my_butt').on('click', function(){
 })
 ```
 
-
-
 ---
 
-##### _Further down the rabbit hole ... adding another animation_ 
+##### _Further down the rabbit hole ... adding another animation_
 
-There's no need to stop at one.  
+There's no need to stop at one.
 
 * Add another `Plotly.animate` function after the first one.  They will be run one after the other.  You change the data to another dataset, `data.z.x` and `data.z.y` for instance.
 * Instead of changing the dataset, can you change the size or colour of the markers of the plot?
@@ -169,9 +167,7 @@ There's no need to stop at one.
 
 ---
 
-
-
-## Fixing some minor issues ... Changing the layout of the plot 
+## Fixing some minor issues ... Changing the layout of the plot
 
 You may have noticed a few things:
 
@@ -179,21 +175,40 @@ You may have noticed a few things:
 * But it is upside down.
 * You may have also seen the ranges of the axes change a little abruptly in between individual animations.
 
-This is because the dataset was made with graphics coordinates, which puts the y-axis the other way round so that zero is at the top left and goes down the page.  
+This is because the dataset was made with graphics coordinates, which puts the y-axis the other way round so that zero is at the top left and goes down the page.
 
 Also, Plotly tries to automatically optimise the ranges of the axes to suit the data being viewed.  When animating a change in the data though, you generally want the axis to stay unchanged so that you have a point of reference for the changes in the data.
 
-Fortunately this is all resolved with one simple line.
+Fortunately this is all resolved with one simple line.  If you go back to the `Plotly.newPlot()` function that made the original plot and add a third argument, called **layout**, which we've met before, you can do the following:
 
 ```JavaScript
-layout = {xaxis: {range: [-5, 105]}, yaxis: {range: [105, -5]}};
+layout = {
+        // The range of the xaxis,
+        xaxis: {range: [-5, 105]}, 
+        
+        // The range of the y axis, made backwards here to reverse the upside down letters.
+        yaxis: {range: [105, -5]}
+        };
 
 
+Plotly.newPlot(my_plot, traces, layout)
 ```
 
+The layout argument allows many aspects of the general look of the plot to be customised, including the title and the axis titles.  Here, we're setting the ranges of the axes.  This turns off the automatic adjustment that was happening before.  And, because we've put the range of the y-axis backwards, we've put it in reverse to put our letters the right way round.
 
+---
 
-### Introduction
+_**Further down the rabbit hole ... Titles**_
+
+This was a challenge earlier, bit we'll repeat it here.  Can you give the axes a title, as well as the plot as a whole.  Hint: to give something a title, use the parameter "title".
+
+---
+
+## Final Challenge
+
+Can you animate a sequence of letters that spell out a word that is funny?  Don't forget the punctuation, which can totally be funny!
+
+Can you then put your new web page online \(either as a new one or by replacing the old one with it\) and share it with a friend?
 
 ### 
 
