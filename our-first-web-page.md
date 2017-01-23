@@ -178,9 +178,9 @@ So, first, add a &lt;div&gt; element to your HTML and put all the other elements
 
 Note that the indentation is entirely unnecessary.  It just helps us keep track of what's going on.
 
-Now give the `<div>` element a name using the `id` attribute, like so:  
+Now give the `<div>` element a name using the `id` attribute, like so:
 
-`<div id='container'> ... </div>`. 
+`<div id='container'> ... </div>`.
 
 This id or name let's us refer back to it later.
 
@@ -281,7 +281,7 @@ Nothing will happen to the web page itself.  You need to open up the console of 
 
 #### Prepare the HTML
 
-First, we need to give the plot somewhere to live on the page.  So, we need to give it an HTML element.  We will use a &lt;div&gt; element, which stands for division.  This is a catch all element for containing other things.  Add the following to your HTML \(in the body section, as with all your other content, but before the script tags, because they need to stay at the bottom\)
+First, we need to give the plot somewhere to live on the page.  So, we need to give it an HTML element.  We will use another &lt;div&gt; element.  Add the following to your HTML in the same section as all your other content \(either in the body section or the `<div id='container'>` element.
 
 ```HTML
 <div id="my_plot"></div>
@@ -359,7 +359,7 @@ Plotly.newPlot(my_plot, traces, layout)
 
 ---
 
-##### _**Further down the rabbit hole ... Making the plot centered and 50% wide with CSS**_
+##### _**Further down the rabbit hole ... Making the plot change size as your window does.**_
 
 If you added the styling rule from above, your plot should also be arranged in the same way as your paragraphs and heading.
 
