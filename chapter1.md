@@ -12,9 +12,9 @@ This is the magic.  Javascript is the programming language for websites.  It is 
 
 Github is something you've probably heard of before.  It is used for a number of things.  For us, it provides a very straightforward way to put our website online without us having to worry for a second about servers or anything like that.
 
-# What the process looks like --- The three steps to getting online
+## What the process looks like --- The three steps to getting online
 
-## 1. "The Document" --- A web page is just an HTML document
+### 1. "The Document" --- A web page is just an HTML document
 
 A web page is just a document, like an MS Word document.  The web browser makes the document look nice for us \(and also allows us to program the document, which comes next\).  The browser "speaks" HTML, which stands for _HyperText Markup Language,_ a nearly meaningless acronym that you can safely never use again ... saying 'HTML' is fine.
 
@@ -48,7 +48,7 @@ The arrows or greater/less than symbols \(ie `<, >` \) and the text between  \(e
 
 To be clear, **the HTML above is a webpage**.  It's not a terribly interesting one, but it does illustrate the straightforwardness of HTML.  All it needs is somewhere to live online, which is step three below, and we could all visit and enjoy it.
 
-## 2. "The Magic" --- Javascript makes HTML dance and play
+### 2. "The Magic" --- Javascript makes HTML dance and play
 
 Javascript is a programming language that looks much like Python, R or Matlab.
 
@@ -120,7 +120,7 @@ To recap, the following has just happened:
 3. That program pays attention to whether anyone has clicked the button
 4. And if that button is clicked, the program adds some text and a picture to the web page \(ie, adds more HTML or lego blocks to the page for us\), 
 
-## 3.  "Getting Online" --- GitHub pages is our internet home
+### 3.  "Getting Online" --- GitHub pages is our internet home
 
 The two ingredients above form a complete and dynamic web page.  Unfortunately, the only people who could view it would be those who have a copy of the file on their computer.  To make it accessible to everyone on the internet, we need to give it a home on the internet.
 
@@ -128,7 +128,7 @@ GitHub makes this super easy.
 
 The best way to learn it is to do it, which we'll be doing soon when we get our own web page up.  So we'll go through the details then.  Here though we'll just outline the fundamental steps:
 
-1. **Have a GitHub account. which is free.  **
+1. **Have a GitHub account. Which is free.  **
    It is mainly used for backing up and versioning files in the cloud, in conjunction with `git` , which is very useful.  But, when those files are web page files, then GitHub are more than happy to turn them into a web page for us.
 2. **Make a 'Repository'.**
    A 'repository' is simply a bunch files that go together in a single collection and are managed by GitHub and git together.  For us, we need one repository for every web page we make, as all the files for a GitHub web page need to come from a single respository.
