@@ -166,8 +166,8 @@ But as an introduction, add the following to **the head** of your HTML file:
 
     <style>
 
-    /* This style applies to both div and h1 elements  */
-    div, h1 {  
+    /* This style applies to both p and h1 elements  */
+    p, h1 {  
         /* Makes the width 50% of the screen width  */
         width: 50%; 
 
@@ -183,9 +183,9 @@ But as an introduction, add the following to **the head** of your HTML file:
 </head>
 ```
 
-This is **CSS**, which stands for **C**ascading **S**tyle **S**heets** **\(saying just the acronym alone , again, is fine\).  The idea is that you can style every element in your page, or all the `<div>` elements or any number of groupings, all in the same way.  This is the "cascading" in CSS.
+This is **CSS**, which stands for **C**ascading **S**tyle **S**heets** **\(saying just the acronym alone , again, is fine\).  The idea is that you can style every element in your page, or all the `<p>` elements or any number of groupings, all in the same way.  This is the "cascading" in CSS.
 
-The style above makes all the &lt;h1&gt; and &lt;div&gt; elements have a width of only 50% of the screen width and a centered position.
+The styling above makes all the &lt;h1&gt; and &lt;p&gt; elements have a width of only 50% of the screen width and a centered position.
 
 * Delete some of these settings \(eg width\) or adjust the values to see what they do.
 * Go to `http://www.w3schools.com/css/default.asp` and find some other style settings to add \(eg, font and border\). 
@@ -326,7 +326,7 @@ In defining `trace1` above you set a few parameters, such as `'mode': 'markers'.
 trace1 = { ...  marker: {color: , size: , line:{color: , width: }}}
 ```
 
-* `Plotly.newPlot` takes a third argument, which is the **layout**.  Go to https://plot.ly/javascript/figure-labels/ and add a title and axis titles to this plot.  Eg:
+* `Plotly.newPlot` takes a third argument, which is the **layout**.  Go to [https://plot.ly/javascript/figure-labels/](https://plot.ly/javascript/figure-labels/) and add a title and axis titles to this plot.  Eg:
 
 ```JavaScript
 layout = {title:  , xaxis: {...}} 
