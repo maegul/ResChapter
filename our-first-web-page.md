@@ -11,6 +11,8 @@
 
 &lt;!-- toc --&gt;
 
+&lt;!-- toc --&gt;
+
 ---
 
 ## Let's get set up
